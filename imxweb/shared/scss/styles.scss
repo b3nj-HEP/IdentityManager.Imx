@@ -52,6 +52,31 @@
 @import 'components/tree';
 @import 'components/top-navigation';
 
+/*********************************************************************
+ * HEP Modifications to override eui-light-theme and eui-dark-theme *
+ *********************************************************************/
+  
+  @import 'hep-themes/light/hep-light-theme.css';
+  @import 'hep-themes/dark/hep-dark-theme.css';
+
+  /* UI Fixes */
+  .eui-masthead {
+    background: #ff5d65 !important;
+  }
+
+  /* Custom Fonts */
+  @font-face {
+    font-family: 'Almarena';
+    src: url('fonts/almarena/almarena-regular.woff2');
+  }
+
+  @font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/open-sans/OpenSans-Regular.ttf');
+  }
+  
+/*********************************************************************/
+
 /* Imx */
 .imx-flex-container-100 {
   display: flex;
