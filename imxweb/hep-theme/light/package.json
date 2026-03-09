@@ -1,8 +1,8 @@
 {
-  "name": "custom-theme",
+  "name": "hep-light-theme",
   "version": "9.3.1",
   "private": true,
   "scripts": {
-    "build": "sass custom-theme.scss:custom-theme.css --load-path=..\\node_modules"
+    "build": "sass custom-theme.scss:hep-light-theme.css --load-path=..\\node_modules"
   }
 }
