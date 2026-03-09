@@ -118,6 +118,6 @@ $theme: mat.m2-define-dark-theme(
   )
 );
 
-.hep-dark-theme {
+.hep-light-theme {
   @include mat.all-component-themes($theme);
 }
