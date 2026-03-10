@@ -1,0 +1,1743 @@
+.eui-dark-theme .eui-alert {
+  box-shadow: none !important;
+  border-radius: 3px;
+  border: none !important;
+}
+
+.eui-dark-theme .eui-alert.eui-alert-type--warning.eui-alert-colored {
+  background: #E3A00850 !important;
+}
+
+.eui-dark-theme mat-card.eui-clickable--primary:hover {
+  border: 1px solid #ff5d65 !important;
+}
+
+.eui-dark-theme a,
+.eui-dark-theme .mat-card .imx-content span,
+.eui-dark-theme span.imx-request-label-value,
+.eui-dark-theme imx-data-source-toolbar .eui-search-icon {
+  color: #a2a4e8 !important; /* #ff5d65 */
+}
+
+.eui-dark-theme .mat-button.eui-top-navigation-item-active {
+  border-bottom: 2px solid #ff5d65 !important;
+}
+
+/* Help icon should not be to obstrusive  */
+.eui-dark-theme imx-help-contextual eui-icon {
+  color: #a2a4e8 !important;
+}
+
+/* Cleanup the product request page */
+.eui-dark-theme imx-new-request-product mat-card {
+  border: none !important;
+}
+
+.eui-dark-theme imx-new-request-product .mat-sidenav:not(.snavigation-side--expanded) .expand-control-button {
+  color: #ff5d65 !important;
+  border: 1px solid #ff5d65 !important;
+}
+
+.eui-dark-theme imx-new-request-product .mat-tree-node--selected {
+  border: none !important;
+  color: #a2a4e8 !important;
+  background: #a2a4e810 !important;
+}
+
+.eui-dark-theme imx-new-request-product mat-tree .mat-button.mat-primary {
+  color: unset !important;
+}
+
+/* Cleanup some other styles */
+.eui-dark-theme .data-explorer-card-header {
+  border: none !important;
+  border-radius: 4px !important;
+  background: #a2a4e850;
+  border-radius: 4px !important;
+}
+
+.eui-dark-theme .data-explorer-card-header .data-explorer-card-header-bg {
+  background: transparent !important;
+}
+
+/* Navigation  */
+.eui-dark-theme .snavigation-item.snavigation-item--selected {
+  background: transparent !important;
+  border-right: 2px solid #a2a4e8 !important;
+  color: #a2a4e8 !important;
+}
+
+.eui-dark-theme .snavigation-item:hover:not(.snavigation-item--selected) {
+  background: rgba(255, 255, 255, 0.04) !important;
+}
+
+
+
+
+
+
+
+/* Generated overrides */
+.eui-dark-theme .mat-ripple-element {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+.eui-dark-theme .mat-option {
+  color: white !important;
+}
+.eui-dark-theme .mat-option:hover:not(.mat-option-disabled), .eui-dark-theme .mat-option:focus:not(.mat-option-disabled) {
+  background: rgba(255, 255, 255, 0.04) !important;
+}
+.eui-dark-theme .mat-option.mat-selected:not(.mat-option-multiple):not(.mat-option-disabled) {
+  background: rgba(255, 255, 255, 0.04) !important;
+}
+.eui-dark-theme .mat-option.mat-active {
+  background: rgba(255, 255, 255, 0.04) !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-option.mat-option-disabled {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-primary .mat-option.mat-selected:not(.mat-option-disabled) {
+  color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-accent .mat-option.mat-selected:not(.mat-option-disabled) {
+  color: #4545cf !important;
+}
+.eui-dark-theme .mat-warn .mat-option.mat-selected:not(.mat-option-disabled) {
+  color: #b00020 !important;
+}
+.eui-dark-theme .mat-optgroup-label {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-optgroup-disabled .mat-optgroup-label {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-pseudo-checkbox {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-pseudo-checkbox::after {
+  color: #303030 !important;
+}
+.eui-dark-theme .mat-pseudo-checkbox-disabled {
+  color: #686868 !important;
+}
+.eui-dark-theme .mat-primary .mat-pseudo-checkbox-checked,
+.eui-dark-theme .mat-primary .mat-pseudo-checkbox-indeterminate {
+  background: #ff5d65 !important;
+}
+.eui-dark-theme .mat-pseudo-checkbox-checked,
+.eui-dark-theme .mat-pseudo-checkbox-indeterminate,
+.eui-dark-theme .mat-accent .mat-pseudo-checkbox-checked,
+.eui-dark-theme .mat-accent .mat-pseudo-checkbox-indeterminate {
+  background: #4545cf !important;
+}
+.eui-dark-theme .mat-warn .mat-pseudo-checkbox-checked,
+.eui-dark-theme .mat-warn .mat-pseudo-checkbox-indeterminate {
+  background: #b00020 !important;
+}
+.eui-dark-theme .mat-pseudo-checkbox-checked.mat-pseudo-checkbox-disabled,
+.eui-dark-theme .mat-pseudo-checkbox-indeterminate.mat-pseudo-checkbox-disabled {
+  background: #686868 !important;
+}
+.eui-dark-theme .mat-app-background, .eui-dark-theme.mat-app-background {
+  background-color: #303030 !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-elevation-z0 {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z1 {
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z2 {
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z3 {
+  box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z4 {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z5 {
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 5px 8px 0px rgba(0, 0, 0, 0.14), 0px 1px 14px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z6 {
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z7 {
+  box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.2), 0px 7px 10px 1px rgba(0, 0, 0, 0.14), 0px 2px 16px 1px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z8 {
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z9 {
+  box-shadow: 0px 5px 6px -3px rgba(0, 0, 0, 0.2), 0px 9px 12px 1px rgba(0, 0, 0, 0.14), 0px 3px 16px 2px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z10 {
+  box-shadow: 0px 6px 6px -3px rgba(0, 0, 0, 0.2), 0px 10px 14px 1px rgba(0, 0, 0, 0.14), 0px 4px 18px 3px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z11 {
+  box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.2), 0px 11px 15px 1px rgba(0, 0, 0, 0.14), 0px 4px 20px 3px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z12 {
+  box-shadow: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 12px 17px 2px rgba(0, 0, 0, 0.14), 0px 5px 22px 4px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z13 {
+  box-shadow: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 13px 19px 2px rgba(0, 0, 0, 0.14), 0px 5px 24px 4px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z14 {
+  box-shadow: 0px 7px 9px -4px rgba(0, 0, 0, 0.2), 0px 14px 21px 2px rgba(0, 0, 0, 0.14), 0px 5px 26px 4px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z15 {
+  box-shadow: 0px 8px 9px -5px rgba(0, 0, 0, 0.2), 0px 15px 22px 2px rgba(0, 0, 0, 0.14), 0px 6px 28px 5px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z16 {
+  box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z17 {
+  box-shadow: 0px 8px 11px -5px rgba(0, 0, 0, 0.2), 0px 17px 26px 2px rgba(0, 0, 0, 0.14), 0px 6px 32px 5px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z18 {
+  box-shadow: 0px 9px 11px -5px rgba(0, 0, 0, 0.2), 0px 18px 28px 2px rgba(0, 0, 0, 0.14), 0px 7px 34px 6px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z19 {
+  box-shadow: 0px 9px 12px -6px rgba(0, 0, 0, 0.2), 0px 19px 29px 2px rgba(0, 0, 0, 0.14), 0px 7px 36px 6px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z20 {
+  box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.2), 0px 20px 31px 3px rgba(0, 0, 0, 0.14), 0px 8px 38px 7px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z21 {
+  box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.2), 0px 21px 33px 3px rgba(0, 0, 0, 0.14), 0px 8px 40px 7px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z22 {
+  box-shadow: 0px 10px 14px -6px rgba(0, 0, 0, 0.2), 0px 22px 35px 3px rgba(0, 0, 0, 0.14), 0px 8px 42px 7px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z23 {
+  box-shadow: 0px 11px 14px -7px rgba(0, 0, 0, 0.2), 0px 23px 36px 3px rgba(0, 0, 0, 0.14), 0px 9px 44px 8px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-elevation-z24 {
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12) !important;
+}
+.mat-theme-loaded-marker {
+  display: none !important;
+}
+
+.eui-dark-theme .mat-autocomplete-panel {
+  background: #424242 !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-autocomplete-panel:not([class*=mat-elevation-z]) {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-autocomplete-panel .mat-option.mat-selected:not(.mat-active):not(:hover) {
+  background: #424242 !important;
+}
+.eui-dark-theme .mat-autocomplete-panel .mat-option.mat-selected:not(.mat-active):not(:hover):not(.mat-option-disabled) {
+  color: white !important;
+}
+.eui-dark-theme .mat-badge {
+  position: relative !important;
+}
+.eui-dark-theme .mat-badge.mat-badge {
+  overflow: visible !important;
+}
+.eui-dark-theme .mat-badge-hidden .mat-badge-content {
+  display: none !important;
+}
+.eui-dark-theme .mat-badge-content {
+  position: absolute !important;
+  text-align: center !important;
+  display: inline-block !important;
+  border-radius: 50% !important;
+  transition: transform 200ms ease-in-out !important;
+  transform: scale(0.6) !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+  pointer-events: none !important;
+}
+.eui-dark-theme .ng-animate-disabled .mat-badge-content,
+.eui-dark-theme .mat-badge-content._mat-animation-noopable {
+  transition: none !important;
+}
+.eui-dark-theme .mat-badge-content.mat-badge-active {
+  transform: none !important;
+}
+.eui-dark-theme .mat-badge-small .mat-badge-content {
+  width: 16px !important;
+  height: 16px !important;
+  line-height: 16px !important;
+}
+.eui-dark-theme .mat-badge-small.mat-badge-above .mat-badge-content {
+  top: -8px !important;
+}
+.eui-dark-theme .mat-badge-small.mat-badge-below .mat-badge-content {
+  bottom: -8px !important;
+}
+.eui-dark-theme .mat-badge-small.mat-badge-before .mat-badge-content {
+  left: -16px !important;
+}
+[dir=rtl] .eui-dark-theme .mat-badge-small.mat-badge-before .mat-badge-content {
+  left: auto !important;
+  right: -16px !important;
+}
+.eui-dark-theme .mat-badge-small.mat-badge-after .mat-badge-content {
+  right: -16px !important;
+}
+[dir=rtl] .eui-dark-theme .mat-badge-small.mat-badge-after .mat-badge-content {
+  right: auto !important;
+  left: -16px !important;
+}
+.eui-dark-theme .mat-badge-small.mat-badge-overlap.mat-badge-before .mat-badge-content {
+  left: -8px !important;
+}
+[dir=rtl] .eui-dark-theme .mat-badge-small.mat-badge-overlap.mat-badge-before .mat-badge-content {
+  left: auto !important;
+  right: -8px !important;
+}
+.eui-dark-theme .mat-badge-small.mat-badge-overlap.mat-badge-after .mat-badge-content {
+  right: -8px !important;
+}
+[dir=rtl] .eui-dark-theme .mat-badge-small.mat-badge-overlap.mat-badge-after .mat-badge-content {
+  right: auto !important;
+  left: -8px !important;
+}
+.eui-dark-theme .mat-badge-medium .mat-badge-content {
+  width: 22px !important;
+  height: 22px !important;
+  line-height: 22px !important;
+}
+.eui-dark-theme .mat-badge-medium.mat-badge-above .mat-badge-content {
+  top: -11px !important;
+}
+.eui-dark-theme .mat-badge-medium.mat-badge-below .mat-badge-content {
+  bottom: -11px !important;
+}
+.eui-dark-theme .mat-badge-medium.mat-badge-before .mat-badge-content {
+  left: -22px !important;
+}
+[dir=rtl] .eui-dark-theme .mat-badge-medium.mat-badge-before .mat-badge-content {
+  left: auto !important;
+  right: -22px !important;
+}
+.eui-dark-theme .mat-badge-medium.mat-badge-after .mat-badge-content {
+  right: -22px !important;
+}
+[dir=rtl] .eui-dark-theme .mat-badge-medium.mat-badge-after .mat-badge-content {
+  right: auto !important;
+  left: -22px !important;
+}
+.eui-dark-theme .mat-badge-medium.mat-badge-overlap.mat-badge-before .mat-badge-content {
+  left: -11px !important;
+}
+[dir=rtl] .eui-dark-theme .mat-badge-medium.mat-badge-overlap.mat-badge-before .mat-badge-content {
+  left: auto !important;
+  right: -11px !important;
+}
+.eui-dark-theme .mat-badge-medium.mat-badge-overlap.mat-badge-after .mat-badge-content {
+  right: -11px !important;
+}
+[dir=rtl] .eui-dark-theme .mat-badge-medium.mat-badge-overlap.mat-badge-after .mat-badge-content {
+  right: auto !important;
+  left: -11px !important;
+}
+.eui-dark-theme .mat-badge-large .mat-badge-content {
+  width: 28px !important;
+  height: 28px !important;
+  line-height: 28px !important;
+}
+.eui-dark-theme .mat-badge-large.mat-badge-above .mat-badge-content {
+  top: -14px !important;
+}
+.eui-dark-theme .mat-badge-large.mat-badge-below .mat-badge-content {
+  bottom: -14px !important;
+}
+.eui-dark-theme .mat-badge-large.mat-badge-before .mat-badge-content {
+  left: -28px !important;
+}
+[dir=rtl] .eui-dark-theme .mat-badge-large.mat-badge-before .mat-badge-content {
+  left: auto !important;
+  right: -28px !important;
+}
+.eui-dark-theme .mat-badge-large.mat-badge-after .mat-badge-content {
+  right: -28px !important;
+}
+[dir=rtl] .eui-dark-theme .mat-badge-large.mat-badge-after .mat-badge-content {
+  right: auto !important;
+  left: -28px !important;
+}
+.eui-dark-theme .mat-badge-large.mat-badge-overlap.mat-badge-before .mat-badge-content {
+  left: -14px !important;
+}
+[dir=rtl] .eui-dark-theme .mat-badge-large.mat-badge-overlap.mat-badge-before .mat-badge-content {
+  left: auto !important;
+  right: -14px !important;
+}
+.eui-dark-theme .mat-badge-large.mat-badge-overlap.mat-badge-after .mat-badge-content {
+  right: -14px !important;
+}
+[dir=rtl] .eui-dark-theme .mat-badge-large.mat-badge-overlap.mat-badge-after .mat-badge-content {
+  right: auto !important;
+  left: -14px !important;
+}
+.eui-dark-theme .mat-badge-content {
+  color: white !important;
+  background: #ff5d65 !important;
+}
+.cdk-high-contrast-active .eui-dark-theme .mat-badge-content {
+  outline: solid 1px !important;
+  border-radius: 0 !important;
+}
+
+.eui-dark-theme .mat-badge-accent .mat-badge-content {
+  background: #4545cf !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-badge-warn .mat-badge-content {
+  color: white !important;
+  background: #b00020 !important;
+}
+.eui-dark-theme .mat-badge-disabled .mat-badge-content {
+  background: #6e6e6e !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-bottom-sheet-container {
+  box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12) !important;
+  background: #424242 !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-button, .eui-dark-theme .mat-icon-button, .eui-dark-theme .mat-stroked-button {
+  color: inherit !important;
+  background: transparent !important;
+}
+.eui-dark-theme .mat-button.mat-primary, .eui-dark-theme .mat-icon-button.mat-primary, .eui-dark-theme .mat-stroked-button.mat-primary {
+  color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-button.mat-accent, .eui-dark-theme .mat-icon-button.mat-accent, .eui-dark-theme .mat-stroked-button.mat-accent {
+  color: #4545cf !important;
+}
+.eui-dark-theme .mat-button.mat-warn, .eui-dark-theme .mat-icon-button.mat-warn, .eui-dark-theme .mat-stroked-button.mat-warn {
+  color: #b00020 !important;
+}
+.eui-dark-theme .mat-button.mat-primary.mat-button-disabled, .eui-dark-theme .mat-button.mat-accent.mat-button-disabled, .eui-dark-theme .mat-button.mat-warn.mat-button-disabled, .eui-dark-theme .mat-button.mat-button-disabled.mat-button-disabled, .eui-dark-theme .mat-icon-button.mat-primary.mat-button-disabled, .eui-dark-theme .mat-icon-button.mat-accent.mat-button-disabled, .eui-dark-theme .mat-icon-button.mat-warn.mat-button-disabled, .eui-dark-theme .mat-icon-button.mat-button-disabled.mat-button-disabled, .eui-dark-theme .mat-stroked-button.mat-primary.mat-button-disabled, .eui-dark-theme .mat-stroked-button.mat-accent.mat-button-disabled, .eui-dark-theme .mat-stroked-button.mat-warn.mat-button-disabled, .eui-dark-theme .mat-stroked-button.mat-button-disabled.mat-button-disabled {
+  color: rgba(255, 255, 255, 0.3) !important;
+}
+.eui-dark-theme .mat-button.mat-primary .mat-button-focus-overlay, .eui-dark-theme .mat-icon-button.mat-primary .mat-button-focus-overlay, .eui-dark-theme .mat-stroked-button.mat-primary .mat-button-focus-overlay {
+  background-color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-button.mat-accent .mat-button-focus-overlay, .eui-dark-theme .mat-icon-button.mat-accent .mat-button-focus-overlay, .eui-dark-theme .mat-stroked-button.mat-accent .mat-button-focus-overlay {
+  background-color: #4545cf !important;
+}
+.eui-dark-theme .mat-button.mat-warn .mat-button-focus-overlay, .eui-dark-theme .mat-icon-button.mat-warn .mat-button-focus-overlay, .eui-dark-theme .mat-stroked-button.mat-warn .mat-button-focus-overlay {
+  background-color: #b00020 !important;
+}
+.eui-dark-theme .mat-button.mat-button-disabled .mat-button-focus-overlay, .eui-dark-theme .mat-icon-button.mat-button-disabled .mat-button-focus-overlay, .eui-dark-theme .mat-stroked-button.mat-button-disabled .mat-button-focus-overlay {
+  background-color: transparent !important;
+}
+.eui-dark-theme .mat-button-focus-overlay {
+  background: white !important;
+}
+.eui-dark-theme .mat-stroked-button:not(.mat-button-disabled) {
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+.eui-dark-theme .mat-flat-button, .eui-dark-theme .mat-raised-button, .eui-dark-theme .mat-fab, .eui-dark-theme .mat-mini-fab {
+  color: white !important;
+  background-color: #424242 !important;
+}
+.eui-dark-theme .mat-flat-button.mat-primary, .eui-dark-theme .mat-raised-button.mat-primary, .eui-dark-theme .mat-fab.mat-primary, .eui-dark-theme .mat-mini-fab.mat-primary {
+  color: white !important;
+}
+.eui-dark-theme .mat-flat-button.mat-accent, .eui-dark-theme .mat-raised-button.mat-accent, .eui-dark-theme .mat-fab.mat-accent, .eui-dark-theme .mat-mini-fab.mat-accent {
+  color: white !important;
+}
+.eui-dark-theme .mat-flat-button.mat-warn, .eui-dark-theme .mat-raised-button.mat-warn, .eui-dark-theme .mat-fab.mat-warn, .eui-dark-theme .mat-mini-fab.mat-warn {
+  color: white !important;
+}
+.eui-dark-theme .mat-flat-button.mat-primary.mat-button-disabled, .eui-dark-theme .mat-flat-button.mat-accent.mat-button-disabled, .eui-dark-theme .mat-flat-button.mat-warn.mat-button-disabled, .eui-dark-theme .mat-flat-button.mat-button-disabled.mat-button-disabled, .eui-dark-theme .mat-raised-button.mat-primary.mat-button-disabled, .eui-dark-theme .mat-raised-button.mat-accent.mat-button-disabled, .eui-dark-theme .mat-raised-button.mat-warn.mat-button-disabled, .eui-dark-theme .mat-raised-button.mat-button-disabled.mat-button-disabled, .eui-dark-theme .mat-fab.mat-primary.mat-button-disabled, .eui-dark-theme .mat-fab.mat-accent.mat-button-disabled, .eui-dark-theme .mat-fab.mat-warn.mat-button-disabled, .eui-dark-theme .mat-fab.mat-button-disabled.mat-button-disabled, .eui-dark-theme .mat-mini-fab.mat-primary.mat-button-disabled, .eui-dark-theme .mat-mini-fab.mat-accent.mat-button-disabled, .eui-dark-theme .mat-mini-fab.mat-warn.mat-button-disabled, .eui-dark-theme .mat-mini-fab.mat-button-disabled.mat-button-disabled {
+  color: rgba(255, 255, 255, 0.3) !important;
+}
+.eui-dark-theme .mat-flat-button.mat-primary, .eui-dark-theme .mat-raised-button.mat-primary, .eui-dark-theme .mat-fab.mat-primary, .eui-dark-theme .mat-mini-fab.mat-primary {
+  background-color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-flat-button.mat-accent, .eui-dark-theme .mat-raised-button.mat-accent, .eui-dark-theme .mat-fab.mat-accent, .eui-dark-theme .mat-mini-fab.mat-accent {
+  background-color: #4545cf !important;
+}
+.eui-dark-theme .mat-flat-button.mat-warn, .eui-dark-theme .mat-raised-button.mat-warn, .eui-dark-theme .mat-fab.mat-warn, .eui-dark-theme .mat-mini-fab.mat-warn {
+  background-color: #b00020 !important;
+}
+.eui-dark-theme .mat-flat-button.mat-primary.mat-button-disabled, .eui-dark-theme .mat-flat-button.mat-accent.mat-button-disabled, .eui-dark-theme .mat-flat-button.mat-warn.mat-button-disabled, .eui-dark-theme .mat-flat-button.mat-button-disabled.mat-button-disabled, .eui-dark-theme .mat-raised-button.mat-primary.mat-button-disabled, .eui-dark-theme .mat-raised-button.mat-accent.mat-button-disabled, .eui-dark-theme .mat-raised-button.mat-warn.mat-button-disabled, .eui-dark-theme .mat-raised-button.mat-button-disabled.mat-button-disabled, .eui-dark-theme .mat-fab.mat-primary.mat-button-disabled, .eui-dark-theme .mat-fab.mat-accent.mat-button-disabled, .eui-dark-theme .mat-fab.mat-warn.mat-button-disabled, .eui-dark-theme .mat-fab.mat-button-disabled.mat-button-disabled, .eui-dark-theme .mat-mini-fab.mat-primary.mat-button-disabled, .eui-dark-theme .mat-mini-fab.mat-accent.mat-button-disabled, .eui-dark-theme .mat-mini-fab.mat-warn.mat-button-disabled, .eui-dark-theme .mat-mini-fab.mat-button-disabled.mat-button-disabled {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+}
+.eui-dark-theme .mat-flat-button.mat-primary .mat-ripple-element, .eui-dark-theme .mat-raised-button.mat-primary .mat-ripple-element, .eui-dark-theme .mat-fab.mat-primary .mat-ripple-element, .eui-dark-theme .mat-mini-fab.mat-primary .mat-ripple-element {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+.eui-dark-theme .mat-flat-button.mat-accent .mat-ripple-element, .eui-dark-theme .mat-raised-button.mat-accent .mat-ripple-element, .eui-dark-theme .mat-fab.mat-accent .mat-ripple-element, .eui-dark-theme .mat-mini-fab.mat-accent .mat-ripple-element {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+.eui-dark-theme .mat-flat-button.mat-warn .mat-ripple-element, .eui-dark-theme .mat-raised-button.mat-warn .mat-ripple-element, .eui-dark-theme .mat-fab.mat-warn .mat-ripple-element, .eui-dark-theme .mat-mini-fab.mat-warn .mat-ripple-element {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+.eui-dark-theme .mat-stroked-button:not([class*=mat-elevation-z]), .eui-dark-theme .mat-flat-button:not([class*=mat-elevation-z]) {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-raised-button:not([class*=mat-elevation-z]) {
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-raised-button:not(.mat-button-disabled):active:not([class*=mat-elevation-z]) {
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-raised-button.mat-button-disabled:not([class*=mat-elevation-z]) {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-fab:not([class*=mat-elevation-z]), .eui-dark-theme .mat-mini-fab:not([class*=mat-elevation-z]) {
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-fab:not(.mat-button-disabled):active:not([class*=mat-elevation-z]), .eui-dark-theme .mat-mini-fab:not(.mat-button-disabled):active:not([class*=mat-elevation-z]) {
+  box-shadow: 0px 7px 8px -4px rgba(0, 0, 0, 0.2), 0px 12px 17px 2px rgba(0, 0, 0, 0.14), 0px 5px 22px 4px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-fab.mat-button-disabled:not([class*=mat-elevation-z]), .eui-dark-theme .mat-mini-fab.mat-button-disabled:not([class*=mat-elevation-z]) {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-button-toggle-standalone:not([class*=mat-elevation-z]),
+.eui-dark-theme .mat-button-toggle-group:not([class*=mat-elevation-z]) {
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-button-toggle-standalone.mat-button-toggle-appearance-standard:not([class*=mat-elevation-z]),
+.eui-dark-theme .mat-button-toggle-group-appearance-standard:not([class*=mat-elevation-z]) {
+  box-shadow: none !important;
+}
+.eui-dark-theme .mat-button-toggle {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-button-toggle .mat-button-toggle-focus-overlay {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+}
+.eui-dark-theme .mat-button-toggle-appearance-standard {
+  color: white !important;
+  background: #424242 !important;
+}
+.eui-dark-theme .mat-button-toggle-appearance-standard .mat-button-toggle-focus-overlay {
+  background-color: white !important;
+}
+.eui-dark-theme .mat-button-toggle-group-appearance-standard .mat-button-toggle + .mat-button-toggle {
+  border-left: solid 1px #595959 !important;
+}
+.eui-dark-theme [dir=rtl] .mat-button-toggle-group-appearance-standard .mat-button-toggle + .mat-button-toggle {
+  border-left: none !important;
+  border-right: solid 1px #595959 !important;
+}
+.eui-dark-theme .mat-button-toggle-group-appearance-standard.mat-button-toggle-vertical .mat-button-toggle + .mat-button-toggle {
+  border-left: none !important;
+  border-right: none !important;
+  border-top: solid 1px #595959 !important;
+}
+.eui-dark-theme .mat-button-toggle-checked {
+  background-color: #212121 !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-button-toggle-checked.mat-button-toggle-appearance-standard {
+  color: white !important;
+}
+.eui-dark-theme .mat-button-toggle-disabled {
+  color: rgba(255, 255, 255, 0.3) !important;
+  background-color: black !important;
+}
+.eui-dark-theme .mat-button-toggle-disabled.mat-button-toggle-appearance-standard {
+  background: #424242 !important;
+}
+.eui-dark-theme .mat-button-toggle-disabled.mat-button-toggle-checked {
+  background-color: #424242 !important;
+}
+.eui-dark-theme .mat-button-toggle-standalone.mat-button-toggle-appearance-standard,
+.eui-dark-theme .mat-button-toggle-group-appearance-standard {
+  border: solid 1px #595959 !important;
+}
+.eui-dark-theme .mat-button-toggle-appearance-standard .mat-button-toggle-label-content {
+  line-height: 48px !important;
+}
+.eui-dark-theme .mat-card {
+  background: #424242 !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-card:not([class*=mat-elevation-z]) {
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-card.mat-card-flat:not([class*=mat-elevation-z]) {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.14), 0px 0px 0px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-card-subtitle {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-checkbox-frame {
+  border-color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-checkbox-checkmark {
+  fill: #303030 !important;
+}
+.eui-dark-theme .mat-checkbox-checkmark-path {
+  stroke: #303030 !important;
+}
+.eui-dark-theme .mat-checkbox-mixedmark {
+  background-color: #303030 !important;
+}
+.eui-dark-theme .mat-checkbox-indeterminate.mat-primary .mat-checkbox-background, .eui-dark-theme .mat-checkbox-checked.mat-primary .mat-checkbox-background {
+  background-color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background, .eui-dark-theme .mat-checkbox-checked.mat-accent .mat-checkbox-background {
+  background-color: #4545cf !important;
+}
+.eui-dark-theme .mat-checkbox-indeterminate.mat-warn .mat-checkbox-background, .eui-dark-theme .mat-checkbox-checked.mat-warn .mat-checkbox-background {
+  background-color: #b00020 !important;
+}
+.eui-dark-theme .mat-checkbox-disabled.mat-checkbox-checked .mat-checkbox-background, .eui-dark-theme .mat-checkbox-disabled.mat-checkbox-indeterminate .mat-checkbox-background {
+  background-color: #686868 !important;
+}
+.eui-dark-theme .mat-checkbox-disabled:not(.mat-checkbox-checked) .mat-checkbox-frame {
+  border-color: #686868 !important;
+}
+.eui-dark-theme .mat-checkbox-disabled .mat-checkbox-label {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-checkbox .mat-ripple-element {
+  background-color: white !important;
+}
+.eui-dark-theme .mat-checkbox-checked:not(.mat-checkbox-disabled).mat-primary .mat-ripple-element,
+.eui-dark-theme .mat-checkbox:active:not(.mat-checkbox-disabled).mat-primary .mat-ripple-element {
+  background: #ff5d65 !important;
+}
+.eui-dark-theme .mat-checkbox-checked:not(.mat-checkbox-disabled).mat-accent .mat-ripple-element,
+.eui-dark-theme .mat-checkbox:active:not(.mat-checkbox-disabled).mat-accent .mat-ripple-element {
+  background: #4545cf !important;
+}
+.eui-dark-theme .mat-checkbox-checked:not(.mat-checkbox-disabled).mat-warn .mat-ripple-element,
+.eui-dark-theme .mat-checkbox:active:not(.mat-checkbox-disabled).mat-warn .mat-ripple-element {
+  background: #b00020 !important;
+}
+.eui-dark-theme .mat-chip.mat-standard-chip {
+  background-color: #616161 !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-chip.mat-standard-chip .mat-chip-remove {
+  color: white !important;
+  opacity: 0.4 !important;
+}
+.eui-dark-theme .mat-chip.mat-standard-chip:not(.mat-chip-disabled):active {
+  box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.2), 0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-chip.mat-standard-chip:not(.mat-chip-disabled) .mat-chip-remove:hover {
+  opacity: 0.54 !important;
+}
+.eui-dark-theme .mat-chip.mat-standard-chip.mat-chip-disabled {
+  opacity: 0.4 !important;
+}
+.eui-dark-theme .mat-chip.mat-standard-chip::after {
+  background: white !important;
+}
+.eui-dark-theme .mat-chip.mat-standard-chip.mat-chip-selected.mat-primary {
+  background-color: #ff5d65 !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-chip.mat-standard-chip.mat-chip-selected.mat-primary .mat-chip-remove {
+  color: white !important;
+  opacity: 0.4 !important;
+}
+.eui-dark-theme .mat-chip.mat-standard-chip.mat-chip-selected.mat-primary .mat-ripple-element {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+.eui-dark-theme .mat-chip.mat-standard-chip.mat-chip-selected.mat-warn {
+  background-color: #b00020 !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-chip.mat-standard-chip.mat-chip-selected.mat-warn .mat-chip-remove {
+  color: white !important;
+  opacity: 0.4 !important;
+}
+.eui-dark-theme .mat-chip.mat-standard-chip.mat-chip-selected.mat-warn .mat-ripple-element {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+.eui-dark-theme .mat-chip.mat-standard-chip.mat-chip-selected.mat-accent {
+  background-color: #4545cf !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-chip.mat-standard-chip.mat-chip-selected.mat-accent .mat-chip-remove {
+  color: white !important;
+  opacity: 0.4 !important;
+}
+.eui-dark-theme .mat-chip.mat-standard-chip.mat-chip-selected.mat-accent .mat-ripple-element {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+.eui-dark-theme .mat-table {
+  background: #424242 !important;
+}
+.eui-dark-theme .mat-table thead, .eui-dark-theme .mat-table tbody, .eui-dark-theme .mat-table tfoot,
+.eui-dark-theme mat-header-row, .eui-dark-theme mat-row, .eui-dark-theme mat-footer-row,
+.eui-dark-theme [mat-header-row], .eui-dark-theme [mat-row], .eui-dark-theme [mat-footer-row],
+.eui-dark-theme .mat-table-sticky {
+  background: inherit !important;
+}
+.eui-dark-theme mat-row, .eui-dark-theme mat-header-row, .eui-dark-theme mat-footer-row,
+.eui-dark-theme th.mat-header-cell, .eui-dark-theme td.mat-cell, .eui-dark-theme td.mat-footer-cell {
+  border-bottom-color: rgba(255, 255, 255, 0.12) !important;
+}
+.eui-dark-theme .mat-header-cell {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-cell, .eui-dark-theme .mat-footer-cell {
+  color: white !important;
+}
+.eui-dark-theme .mat-calendar-arrow {
+  fill: white !important;
+}
+.eui-dark-theme .mat-datepicker-toggle,
+.eui-dark-theme .mat-datepicker-content .mat-calendar-next-button,
+.eui-dark-theme .mat-datepicker-content .mat-calendar-previous-button {
+  color: white !important;
+}
+.eui-dark-theme .mat-calendar-table-header-divider::after {
+  background: rgba(255, 255, 255, 0.12) !important;
+}
+.eui-dark-theme .mat-calendar-table-header,
+.eui-dark-theme .mat-calendar-body-label {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-calendar-body-cell-content,
+.eui-dark-theme .mat-date-range-input-separator {
+  color: white !important;
+  border-color: transparent !important;
+}
+.eui-dark-theme .mat-calendar-body-disabled > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-form-field-disabled .mat-date-range-input-separator {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-calendar-body-in-preview {
+  color: rgba(255, 255, 255, 0.24) !important;
+}
+.eui-dark-theme .mat-calendar-body-today:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-calendar-body-disabled > .mat-calendar-body-today:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+.eui-dark-theme .mat-calendar-body-in-range::before {
+  background: rgba(255, 93, 101, 0.2) !important;
+}
+.eui-dark-theme .mat-calendar-body-comparison-identical,
+.eui-dark-theme .mat-calendar-body-in-comparison-range::before {
+  background: rgba(249, 171, 0, 0.2) !important;
+}
+.eui-dark-theme .mat-calendar-body-comparison-bridge-start::before,
+.eui-dark-theme [dir=rtl] .mat-calendar-body-comparison-bridge-end::before {
+  background: linear-gradient(to right, rgba(255, 93, 101, 0.2) 50%, rgba(249, 171, 0, 0.2) 50%) !important;
+}
+.eui-dark-theme .mat-calendar-body-comparison-bridge-end::before,
+.eui-dark-theme [dir=rtl] .mat-calendar-body-comparison-bridge-start::before {
+  background: linear-gradient(to left, rgba(255, 93, 101, 0.2) 50%, rgba(249, 171, 0, 0.2) 50%) !important;
+}
+.eui-dark-theme .mat-calendar-body-in-range > .mat-calendar-body-comparison-identical,
+.eui-dark-theme .mat-calendar-body-in-comparison-range.mat-calendar-body-in-range::after {
+  background: #a8dab5 !important;
+}
+.eui-dark-theme .mat-calendar-body-comparison-identical.mat-calendar-body-selected,
+.eui-dark-theme .mat-calendar-body-in-comparison-range > .mat-calendar-body-selected {
+  background: #46a35e !important;
+}
+.eui-dark-theme .mat-calendar-body-selected {
+  background-color: #ff5d65 !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-calendar-body-disabled > .mat-calendar-body-selected {
+  background-color: rgba(255, 93, 101, 0.4) !important;
+}
+.eui-dark-theme .mat-calendar-body-today.mat-calendar-body-selected {
+  box-shadow: inset 0 0 0 1px white !important;
+}
+.eui-dark-theme .cdk-keyboard-focused .mat-calendar-body-active > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical),
+.eui-dark-theme .cdk-program-focused .mat-calendar-body-active > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+  background-color: rgba(255, 93, 101, 0.3) !important;
+}
+@media (hover: hover) {
+  .eui-dark-theme .mat-calendar-body-cell:not(.mat-calendar-body-disabled):hover > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+    background-color: rgba(255, 93, 101, 0.3) !important;
+  }
+}
+.eui-dark-theme .mat-datepicker-content {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12) !important;
+  background-color: #424242 !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-datepicker-content.mat-accent .mat-calendar-body-in-range::before {
+  background: rgba(69, 69, 207, 0.2) !important;
+}
+.eui-dark-theme .mat-datepicker-content.mat-accent .mat-calendar-body-comparison-identical,
+.eui-dark-theme .mat-datepicker-content.mat-accent .mat-calendar-body-in-comparison-range::before {
+  background: rgba(249, 171, 0, 0.2) !important;
+}
+.eui-dark-theme .mat-datepicker-content.mat-accent .mat-calendar-body-comparison-bridge-start::before,
+.eui-dark-theme .mat-datepicker-content.mat-accent [dir=rtl] .mat-calendar-body-comparison-bridge-end::before {
+  background: linear-gradient(to right, rgba(69, 69, 207, 0.2) 50%, rgba(249, 171, 0, 0.2) 50%) !important;
+}
+.eui-dark-theme .mat-datepicker-content.mat-accent .mat-calendar-body-comparison-bridge-end::before,
+.eui-dark-theme .mat-datepicker-content.mat-accent [dir=rtl] .mat-calendar-body-comparison-bridge-start::before {
+  background: linear-gradient(to left, rgba(69, 69, 207, 0.2) 50%, rgba(249, 171, 0, 0.2) 50%) !important;
+}
+.eui-dark-theme .mat-datepicker-content.mat-accent .mat-calendar-body-in-range > .mat-calendar-body-comparison-identical,
+.eui-dark-theme .mat-datepicker-content.mat-accent .mat-calendar-body-in-comparison-range.mat-calendar-body-in-range::after {
+  background: #a8dab5 !important;
+}
+.eui-dark-theme .mat-datepicker-content.mat-accent .mat-calendar-body-comparison-identical.mat-calendar-body-selected,
+.eui-dark-theme .mat-datepicker-content.mat-accent .mat-calendar-body-in-comparison-range > .mat-calendar-body-selected {
+  background: #46a35e !important;
+}
+.eui-dark-theme .mat-datepicker-content.mat-accent .mat-calendar-body-selected {
+  background-color: #4545cf !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-datepicker-content.mat-accent .mat-calendar-body-disabled > .mat-calendar-body-selected {
+  background-color: rgba(69, 69, 207, 0.4) !important;
+}
+.eui-dark-theme .mat-datepicker-content.mat-accent .mat-calendar-body-today.mat-calendar-body-selected {
+  box-shadow: inset 0 0 0 1px white !important;
+}
+.eui-dark-theme .mat-datepicker-content.mat-accent .cdk-keyboard-focused .mat-calendar-body-active > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical),
+.eui-dark-theme .mat-datepicker-content.mat-accent .cdk-program-focused .mat-calendar-body-active > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+  background-color: rgba(69, 69, 207, 0.3) !important;
+}
+@media (hover: hover) {
+  .eui-dark-theme .mat-datepicker-content.mat-accent .mat-calendar-body-cell:not(.mat-calendar-body-disabled):hover > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+    background-color: rgba(69, 69, 207, 0.3) !important;
+  }
+}
+.eui-dark-theme .mat-datepicker-content.mat-warn .mat-calendar-body-in-range::before {
+  background: rgba(176, 0, 32, 0.2) !important;
+}
+.eui-dark-theme .mat-datepicker-content.mat-warn .mat-calendar-body-comparison-identical,
+.eui-dark-theme .mat-datepicker-content.mat-warn .mat-calendar-body-in-comparison-range::before {
+  background: rgba(249, 171, 0, 0.2) !important;
+}
+.eui-dark-theme .mat-datepicker-content.mat-warn .mat-calendar-body-comparison-bridge-start::before,
+.eui-dark-theme .mat-datepicker-content.mat-warn [dir=rtl] .mat-calendar-body-comparison-bridge-end::before {
+  background: linear-gradient(to right, rgba(176, 0, 32, 0.2) 50%, rgba(249, 171, 0, 0.2) 50%) !important;
+}
+.eui-dark-theme .mat-datepicker-content.mat-warn .mat-calendar-body-comparison-bridge-end::before,
+.eui-dark-theme .mat-datepicker-content.mat-warn [dir=rtl] .mat-calendar-body-comparison-bridge-start::before {
+  background: linear-gradient(to left, rgba(176, 0, 32, 0.2) 50%, rgba(249, 171, 0, 0.2) 50%) !important;
+}
+.eui-dark-theme .mat-datepicker-content.mat-warn .mat-calendar-body-in-range > .mat-calendar-body-comparison-identical,
+.eui-dark-theme .mat-datepicker-content.mat-warn .mat-calendar-body-in-comparison-range.mat-calendar-body-in-range::after {
+  background: #a8dab5 !important;
+}
+.eui-dark-theme .mat-datepicker-content.mat-warn .mat-calendar-body-comparison-identical.mat-calendar-body-selected,
+.eui-dark-theme .mat-datepicker-content.mat-warn .mat-calendar-body-in-comparison-range > .mat-calendar-body-selected {
+  background: #46a35e !important;
+}
+.eui-dark-theme .mat-datepicker-content.mat-warn .mat-calendar-body-selected {
+  background-color: #b00020 !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-datepicker-content.mat-warn .mat-calendar-body-disabled > .mat-calendar-body-selected {
+  background-color: rgba(176, 0, 32, 0.4) !important;
+}
+.eui-dark-theme .mat-datepicker-content.mat-warn .mat-calendar-body-today.mat-calendar-body-selected {
+  box-shadow: inset 0 0 0 1px white !important;
+}
+.eui-dark-theme .mat-datepicker-content.mat-warn .cdk-keyboard-focused .mat-calendar-body-active > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical),
+.eui-dark-theme .mat-datepicker-content.mat-warn .cdk-program-focused .mat-calendar-body-active > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+  background-color: rgba(176, 0, 32, 0.3) !important;
+}
+@media (hover: hover) {
+  .eui-dark-theme .mat-datepicker-content.mat-warn .mat-calendar-body-cell:not(.mat-calendar-body-disabled):hover > .mat-calendar-body-cell-content:not(.mat-calendar-body-selected):not(.mat-calendar-body-comparison-identical) {
+    background-color: rgba(176, 0, 32, 0.3) !important;
+  }
+}
+.eui-dark-theme .mat-datepicker-content-touch {
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-datepicker-toggle-active {
+  color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-datepicker-toggle-active.mat-accent {
+  color: #4545cf !important;
+}
+.eui-dark-theme .mat-datepicker-toggle-active.mat-warn {
+  color: #b00020 !important;
+}
+.eui-dark-theme .mat-date-range-input-inner[disabled] {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-dialog-container {
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12) !important;
+  background: #424242 !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-divider {
+  border-top-color: rgba(255, 255, 255, 0.12) !important;
+}
+.eui-dark-theme .mat-divider-vertical {
+  border-right-color: rgba(255, 255, 255, 0.12) !important;
+}
+.eui-dark-theme .mat-expansion-panel {
+  background: #424242 !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-expansion-panel:not([class*=mat-elevation-z]) {
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-action-row {
+  border-top-color: rgba(255, 255, 255, 0.12) !important;
+}
+.eui-dark-theme .mat-expansion-panel .mat-expansion-panel-header.cdk-keyboard-focused:not([aria-disabled=true]), .eui-dark-theme .mat-expansion-panel .mat-expansion-panel-header.cdk-program-focused:not([aria-disabled=true]), .eui-dark-theme .mat-expansion-panel:not(.mat-expanded) .mat-expansion-panel-header:hover:not([aria-disabled=true]) {
+  background: rgba(255, 255, 255, 0.04) !important;
+}
+@media (hover: none) {
+  .eui-dark-theme .mat-expansion-panel:not(.mat-expanded):not([aria-disabled=true]) .mat-expansion-panel-header:hover {
+    background: #424242 !important;
+  }
+}
+.eui-dark-theme .mat-expansion-panel-header-title {
+  color: white !important;
+}
+.eui-dark-theme .mat-expansion-panel-header-description,
+.eui-dark-theme .mat-expansion-indicator::after {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-expansion-panel-header[aria-disabled=true] {
+  color: rgba(255, 255, 255, 0.3) !important;
+}
+.eui-dark-theme .mat-expansion-panel-header[aria-disabled=true] .mat-expansion-panel-header-title,
+.eui-dark-theme .mat-expansion-panel-header[aria-disabled=true] .mat-expansion-panel-header-description {
+  color: inherit !important;
+}
+.eui-dark-theme .mat-expansion-panel-header {
+  height: 48px !important;
+}
+.eui-dark-theme .mat-expansion-panel-header.mat-expanded {
+  height: 64px !important;
+}
+.eui-dark-theme .mat-form-field-label {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-hint {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-form-field.mat-focused .mat-form-field-label {
+  color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-form-field.mat-focused .mat-form-field-label.mat-accent {
+  color: #4545cf !important;
+}
+.eui-dark-theme .mat-form-field.mat-focused .mat-form-field-label.mat-warn {
+  color: #b00020 !important;
+}
+.eui-dark-theme .mat-focused .mat-form-field-required-marker {
+  color: #4545cf !important;
+}
+.eui-dark-theme .mat-form-field-ripple {
+  background-color: white !important;
+}
+.eui-dark-theme .mat-form-field.mat-focused .mat-form-field-ripple {
+  background-color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-form-field.mat-focused .mat-form-field-ripple.mat-accent {
+  background-color: #4545cf !important;
+}
+.eui-dark-theme .mat-form-field.mat-focused .mat-form-field-ripple.mat-warn {
+  background-color: #b00020 !important;
+}
+.eui-dark-theme .mat-form-field-type-mat-native-select.mat-focused:not(.mat-form-field-invalid) .mat-form-field-infix::after {
+  color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-form-field-type-mat-native-select.mat-focused:not(.mat-form-field-invalid).mat-accent .mat-form-field-infix::after {
+  color: #4545cf !important;
+}
+.eui-dark-theme .mat-form-field-type-mat-native-select.mat-focused:not(.mat-form-field-invalid).mat-warn .mat-form-field-infix::after {
+  color: #b00020 !important;
+}
+.eui-dark-theme .mat-form-field.mat-form-field-invalid .mat-form-field-label {
+  color: #b00020 !important;
+}
+.eui-dark-theme .mat-form-field.mat-form-field-invalid .mat-form-field-label.mat-accent,
+.eui-dark-theme .mat-form-field.mat-form-field-invalid .mat-form-field-label .mat-form-field-required-marker {
+  color: #b00020 !important;
+}
+.eui-dark-theme .mat-form-field.mat-form-field-invalid .mat-form-field-ripple,
+.eui-dark-theme .mat-form-field.mat-form-field-invalid .mat-form-field-ripple.mat-accent {
+  background-color: #b00020 !important;
+}
+.eui-dark-theme .mat-error {
+  color: #b00020 !important;
+}
+.eui-dark-theme .mat-form-field-appearance-legacy .mat-form-field-label {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-form-field-appearance-legacy .mat-hint {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-form-field-appearance-legacy .mat-form-field-underline {
+  background-color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-form-field-appearance-legacy.mat-form-field-disabled .mat-form-field-underline {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 33%, transparent 0%) !important;
+  background-size: 4px 100% !important;
+  background-repeat: repeat-x !important;
+}
+.eui-dark-theme .mat-form-field-appearance-standard .mat-form-field-underline {
+  background-color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-form-field-appearance-standard.mat-form-field-disabled .mat-form-field-underline {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 33%, transparent 0%) !important;
+  background-size: 4px 100% !important;
+  background-repeat: repeat-x !important;
+}
+.eui-dark-theme .mat-form-field-appearance-fill .mat-form-field-flex {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+.eui-dark-theme .mat-form-field-appearance-fill.mat-form-field-disabled .mat-form-field-flex {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+.eui-dark-theme .mat-form-field-appearance-fill .mat-form-field-underline::before {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-form-field-appearance-fill.mat-form-field-disabled .mat-form-field-label {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-form-field-appearance-fill.mat-form-field-disabled .mat-form-field-underline::before {
+  background-color: transparent !important;
+}
+.eui-dark-theme .mat-form-field-appearance-outline .mat-form-field-outline {
+  color: rgba(255, 255, 255, 0.3) !important;
+}
+.eui-dark-theme .mat-form-field-appearance-outline .mat-form-field-outline-thick {
+  color: white !important;
+}
+.eui-dark-theme .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+  color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-form-field-appearance-outline.mat-focused.mat-accent .mat-form-field-outline-thick {
+  color: #4545cf !important;
+}
+.eui-dark-theme .mat-form-field-appearance-outline.mat-focused.mat-warn .mat-form-field-outline-thick {
+  color: #b00020 !important;
+}
+.eui-dark-theme .mat-form-field-appearance-outline.mat-form-field-invalid.mat-form-field-invalid .mat-form-field-outline-thick {
+  color: #b00020 !important;
+}
+.eui-dark-theme .mat-form-field-appearance-outline.mat-form-field-disabled .mat-form-field-label {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-form-field-appearance-outline.mat-form-field-disabled .mat-form-field-outline {
+  color: rgba(255, 255, 255, 0.15) !important;
+}
+.eui-dark-theme .mat-icon.mat-primary {
+  color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-icon.mat-accent {
+  color: #4545cf !important;
+}
+.eui-dark-theme .mat-icon.mat-warn {
+  color: #b00020 !important;
+}
+.eui-dark-theme .mat-form-field-type-mat-native-select .mat-form-field-infix::after {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-input-element:disabled,
+.eui-dark-theme .mat-form-field-type-mat-native-select.mat-form-field-disabled .mat-form-field-infix::after {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-input-element {
+  caret-color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-input-element::placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-input-element::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-input-element::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-input-element:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-input-element:not(.mat-native-select-inline) option {
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+.eui-dark-theme .mat-input-element:not(.mat-native-select-inline) option:disabled {
+  color: rgba(0, 0, 0, 0.38) !important;
+}
+.eui-dark-theme .mat-form-field.mat-accent .mat-input-element {
+  caret-color: #4545cf !important;
+}
+.eui-dark-theme .mat-form-field.mat-warn .mat-input-element,
+.eui-dark-theme .mat-form-field-invalid .mat-input-element {
+  caret-color: #b00020 !important;
+}
+.eui-dark-theme .mat-form-field-type-mat-native-select.mat-form-field-invalid .mat-form-field-infix::after {
+  color: #b00020 !important;
+}
+.eui-dark-theme .mat-list-base .mat-list-item {
+  color: white !important;
+}
+.eui-dark-theme .mat-list-base .mat-list-option {
+  color: white !important;
+}
+.eui-dark-theme .mat-list-base .mat-subheader {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-list-base .mat-list-item-disabled {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-list-option:hover, .eui-dark-theme .mat-list-option:focus,
+.eui-dark-theme .mat-nav-list .mat-list-item:hover,
+.eui-dark-theme .mat-nav-list .mat-list-item:focus,
+.eui-dark-theme .mat-action-list .mat-list-item:hover,
+.eui-dark-theme .mat-action-list .mat-list-item:focus {
+  background: rgba(255, 255, 255, 0.04) !important;
+}
+.eui-dark-theme .mat-list-single-selected-option, .eui-dark-theme .mat-list-single-selected-option:hover, .eui-dark-theme .mat-list-single-selected-option:focus {
+  background: rgba(255, 255, 255, 0.12) !important;
+}
+.eui-dark-theme .mat-menu-panel {
+  background: #424242 !important;
+}
+.eui-dark-theme .mat-menu-panel:not([class*=mat-elevation-z]) {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-menu-item {
+  background: transparent !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-menu-item[disabled],
+.eui-dark-theme .mat-menu-item[disabled] .mat-menu-submenu-icon,
+.eui-dark-theme .mat-menu-item[disabled] .mat-icon-no-color {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-menu-item .mat-icon-no-color,
+.eui-dark-theme .mat-menu-submenu-icon {
+  color: white !important;
+}
+.eui-dark-theme .mat-menu-item:hover:not([disabled]),
+.eui-dark-theme .mat-menu-item.cdk-program-focused:not([disabled]),
+.eui-dark-theme .mat-menu-item.cdk-keyboard-focused:not([disabled]),
+.eui-dark-theme .mat-menu-item-highlighted:not([disabled]) {
+  background: rgba(255, 255, 255, 0.04) !important;
+}
+.eui-dark-theme .mat-paginator {
+  background: #424242 !important;
+}
+.eui-dark-theme .mat-paginator,
+.eui-dark-theme .mat-paginator-page-size .mat-select-trigger {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-paginator-decrement,
+.eui-dark-theme .mat-paginator-increment {
+  border-top: 2px solid white !important;
+  border-right: 2px solid white !important;
+}
+.eui-dark-theme .mat-paginator-first,
+.eui-dark-theme .mat-paginator-last {
+  border-top: 2px solid white !important;
+}
+.eui-dark-theme .mat-icon-button[disabled] .mat-paginator-decrement,
+.eui-dark-theme .mat-icon-button[disabled] .mat-paginator-increment,
+.eui-dark-theme .mat-icon-button[disabled] .mat-paginator-first,
+.eui-dark-theme .mat-icon-button[disabled] .mat-paginator-last {
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-paginator-container {
+  min-height: 56px !important;
+}
+.eui-dark-theme .mat-progress-bar-background {
+  fill: #643b3d !important;
+}
+.eui-dark-theme .mat-progress-bar-buffer {
+  background-color: #643b3d !important;
+}
+.eui-dark-theme .mat-progress-bar-fill::after {
+  background-color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-progress-bar.mat-accent .mat-progress-bar-background {
+  fill: #353558 !important;
+}
+.eui-dark-theme .mat-progress-bar.mat-accent .mat-progress-bar-buffer {
+  background-color: #353558 !important;
+}
+.eui-dark-theme .mat-progress-bar.mat-accent .mat-progress-bar-fill::after {
+  background-color: #4545cf !important;
+}
+.eui-dark-theme .mat-progress-bar.mat-warn .mat-progress-bar-background {
+  fill: #50242c !important;
+}
+.eui-dark-theme .mat-progress-bar.mat-warn .mat-progress-bar-buffer {
+  background-color: #50242c !important;
+}
+.eui-dark-theme .mat-progress-bar.mat-warn .mat-progress-bar-fill::after {
+  background-color: #b00020 !important;
+}
+.eui-dark-theme .mat-progress-spinner circle, .eui-dark-theme .mat-spinner circle {
+  stroke: #ff5d65 !important;
+}
+.eui-dark-theme .mat-progress-spinner.mat-accent circle, .eui-dark-theme .mat-spinner.mat-accent circle {
+  stroke: #4545cf !important;
+}
+.eui-dark-theme .mat-progress-spinner.mat-warn circle, .eui-dark-theme .mat-spinner.mat-warn circle {
+  stroke: #b00020 !important;
+}
+.eui-dark-theme .mat-radio-outer-circle {
+  border-color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-radio-button.mat-primary.mat-radio-checked .mat-radio-outer-circle {
+  border-color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-radio-button.mat-primary .mat-radio-inner-circle,
+.eui-dark-theme .mat-radio-button.mat-primary .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple), .eui-dark-theme .mat-radio-button.mat-primary.mat-radio-checked .mat-radio-persistent-ripple, .eui-dark-theme .mat-radio-button.mat-primary:active .mat-radio-persistent-ripple {
+  background-color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+  border-color: #4545cf !important;
+}
+.eui-dark-theme .mat-radio-button.mat-accent .mat-radio-inner-circle,
+.eui-dark-theme .mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple), .eui-dark-theme .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple, .eui-dark-theme .mat-radio-button.mat-accent:active .mat-radio-persistent-ripple {
+  background-color: #4545cf !important;
+}
+.eui-dark-theme .mat-radio-button.mat-warn.mat-radio-checked .mat-radio-outer-circle {
+  border-color: #b00020 !important;
+}
+.eui-dark-theme .mat-radio-button.mat-warn .mat-radio-inner-circle,
+.eui-dark-theme .mat-radio-button.mat-warn .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple), .eui-dark-theme .mat-radio-button.mat-warn.mat-radio-checked .mat-radio-persistent-ripple, .eui-dark-theme .mat-radio-button.mat-warn:active .mat-radio-persistent-ripple {
+  background-color: #b00020 !important;
+}
+.eui-dark-theme .mat-radio-button.mat-radio-disabled.mat-radio-checked .mat-radio-outer-circle,
+.eui-dark-theme .mat-radio-button.mat-radio-disabled .mat-radio-outer-circle {
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-radio-button.mat-radio-disabled .mat-radio-ripple .mat-ripple-element,
+.eui-dark-theme .mat-radio-button.mat-radio-disabled .mat-radio-inner-circle {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-radio-button.mat-radio-disabled .mat-radio-label-content {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-radio-button .mat-ripple-element {
+  background-color: white !important;
+}
+.eui-dark-theme .mat-select-value {
+  color: white !important;
+}
+.eui-dark-theme .mat-select-placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-select-disabled .mat-select-value {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-select-arrow {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-select-panel {
+  background: #424242 !important;
+}
+.eui-dark-theme .mat-select-panel:not([class*=mat-elevation-z]) {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-select-panel .mat-option.mat-selected:not(.mat-option-multiple) {
+  background: rgba(255, 255, 255, 0.12) !important;
+}
+.eui-dark-theme .mat-form-field.mat-focused.mat-primary .mat-select-arrow {
+  color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-form-field.mat-focused.mat-accent .mat-select-arrow {
+  color: #4545cf !important;
+}
+.eui-dark-theme .mat-form-field.mat-focused.mat-warn .mat-select-arrow {
+  color: #b00020 !important;
+}
+.eui-dark-theme .mat-form-field .mat-select.mat-select-invalid .mat-select-arrow {
+  color: #b00020 !important;
+}
+.eui-dark-theme .mat-form-field .mat-select.mat-select-disabled .mat-select-arrow {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-drawer-container {
+  background-color: #303030 !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-drawer {
+  background-color: #424242 !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-drawer.mat-drawer-push {
+  background-color: #424242 !important;
+}
+.eui-dark-theme .mat-drawer:not(.mat-drawer-side) {
+  box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.2), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-drawer-side {
+  border-right: solid 1px rgba(255, 255, 255, 0.12) !important;
+}
+.eui-dark-theme .mat-drawer-side.mat-drawer-end {
+  border-left: solid 1px rgba(255, 255, 255, 0.12) !important;
+  border-right: none !important;
+}
+.eui-dark-theme [dir=rtl] .mat-drawer-side {
+  border-left: solid 1px rgba(255, 255, 255, 0.12) !important;
+  border-right: none !important;
+}
+.eui-dark-theme [dir=rtl] .mat-drawer-side.mat-drawer-end {
+  border-left: none !important;
+  border-right: solid 1px rgba(255, 255, 255, 0.12) !important;
+}
+.eui-dark-theme .mat-drawer-backdrop.mat-drawer-shown {
+  background-color: rgba(189, 189, 189, 0.6) !important;
+}
+.eui-dark-theme .mat-slide-toggle.mat-checked .mat-slide-toggle-thumb {
+  background-color: #4545cf !important;
+}
+.eui-dark-theme .mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
+  background-color: rgba(69, 69, 207, 0.54) !important;
+}
+.eui-dark-theme .mat-slide-toggle.mat-checked .mat-ripple-element {
+  background-color: #4545cf !important;
+}
+.eui-dark-theme .mat-slide-toggle.mat-primary.mat-checked .mat-slide-toggle-thumb {
+  background-color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-slide-toggle.mat-primary.mat-checked .mat-slide-toggle-bar {
+  background-color: rgba(255, 93, 101, 0.54) !important;
+}
+.eui-dark-theme .mat-slide-toggle.mat-primary.mat-checked .mat-ripple-element {
+  background-color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-slide-toggle.mat-warn.mat-checked .mat-slide-toggle-thumb {
+  background-color: #b00020 !important;
+}
+.eui-dark-theme .mat-slide-toggle.mat-warn.mat-checked .mat-slide-toggle-bar {
+  background-color: rgba(176, 0, 32, 0.54) !important;
+}
+.eui-dark-theme .mat-slide-toggle.mat-warn.mat-checked .mat-ripple-element {
+  background-color: #b00020 !important;
+}
+.eui-dark-theme .mat-slide-toggle:not(.mat-checked) .mat-ripple-element {
+  background-color: white !important;
+}
+.eui-dark-theme .mat-slide-toggle-thumb {
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12) !important;
+  background-color: #bdbdbd !important;
+}
+.eui-dark-theme .mat-slide-toggle-bar {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-slider-track-background {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+.eui-dark-theme .mat-slider.mat-primary .mat-slider-track-fill,
+.eui-dark-theme .mat-slider.mat-primary .mat-slider-thumb,
+.eui-dark-theme .mat-slider.mat-primary .mat-slider-thumb-label {
+  background-color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-slider.mat-primary .mat-slider-thumb-label-text {
+  color: white !important;
+}
+.eui-dark-theme .mat-slider.mat-primary .mat-slider-focus-ring {
+  background-color: rgba(255, 93, 101, 0.2) !important;
+}
+.eui-dark-theme .mat-slider.mat-accent .mat-slider-track-fill,
+.eui-dark-theme .mat-slider.mat-accent .mat-slider-thumb,
+.eui-dark-theme .mat-slider.mat-accent .mat-slider-thumb-label {
+  background-color: #4545cf !important;
+}
+.eui-dark-theme .mat-slider.mat-accent .mat-slider-thumb-label-text {
+  color: white !important;
+}
+.eui-dark-theme .mat-slider.mat-accent .mat-slider-focus-ring {
+  background-color: rgba(69, 69, 207, 0.2) !important;
+}
+.eui-dark-theme .mat-slider.mat-warn .mat-slider-track-fill,
+.eui-dark-theme .mat-slider.mat-warn .mat-slider-thumb,
+.eui-dark-theme .mat-slider.mat-warn .mat-slider-thumb-label {
+  background-color: #b00020 !important;
+}
+.eui-dark-theme .mat-slider.mat-warn .mat-slider-thumb-label-text {
+  color: white !important;
+}
+.eui-dark-theme .mat-slider.mat-warn .mat-slider-focus-ring {
+  background-color: rgba(176, 0, 32, 0.2) !important;
+}
+.eui-dark-theme .mat-slider:hover .mat-slider-track-background,
+.eui-dark-theme .mat-slider.cdk-focused .mat-slider-track-background {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+.eui-dark-theme .mat-slider.mat-slider-disabled .mat-slider-track-background,
+.eui-dark-theme .mat-slider.mat-slider-disabled .mat-slider-track-fill,
+.eui-dark-theme .mat-slider.mat-slider-disabled .mat-slider-thumb {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+.eui-dark-theme .mat-slider.mat-slider-disabled:hover .mat-slider-track-background {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+.eui-dark-theme .mat-slider.mat-slider-min-value .mat-slider-focus-ring {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+}
+.eui-dark-theme .mat-slider.mat-slider-min-value.mat-slider-thumb-label-showing .mat-slider-thumb,
+.eui-dark-theme .mat-slider.mat-slider-min-value.mat-slider-thumb-label-showing .mat-slider-thumb-label {
+  background-color: white !important;
+}
+.eui-dark-theme .mat-slider.mat-slider-min-value.mat-slider-thumb-label-showing.cdk-focused .mat-slider-thumb,
+.eui-dark-theme .mat-slider.mat-slider-min-value.mat-slider-thumb-label-showing.cdk-focused .mat-slider-thumb-label {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+.eui-dark-theme .mat-slider.mat-slider-min-value:not(.mat-slider-thumb-label-showing) .mat-slider-thumb {
+  border-color: rgba(255, 255, 255, 0.3) !important;
+  background-color: transparent !important;
+}
+.eui-dark-theme .mat-slider.mat-slider-min-value:not(.mat-slider-thumb-label-showing):hover .mat-slider-thumb, .eui-dark-theme .mat-slider.mat-slider-min-value:not(.mat-slider-thumb-label-showing).cdk-focused .mat-slider-thumb {
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+.eui-dark-theme .mat-slider.mat-slider-min-value:not(.mat-slider-thumb-label-showing):hover.mat-slider-disabled .mat-slider-thumb, .eui-dark-theme .mat-slider.mat-slider-min-value:not(.mat-slider-thumb-label-showing).cdk-focused.mat-slider-disabled .mat-slider-thumb {
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+.eui-dark-theme .mat-slider-has-ticks .mat-slider-wrapper::after {
+  border-color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-slider-horizontal .mat-slider-ticks {
+  background-image: repeating-linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7) 2px, transparent 0, transparent) !important;
+  background-image: -moz-repeating-linear-gradient(0.0001deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7) 2px, transparent 0, transparent) !important;
+}
+.eui-dark-theme .mat-slider-vertical .mat-slider-ticks {
+  background-image: repeating-linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7) 2px, transparent 0, transparent) !important;
+}
+.eui-dark-theme .mat-step-header.cdk-keyboard-focused, .eui-dark-theme .mat-step-header.cdk-program-focused, .eui-dark-theme .mat-step-header:hover:not([aria-disabled]), .eui-dark-theme .mat-step-header:hover[aria-disabled=false] {
+  background-color: rgba(255, 255, 255, 0.04) !important;
+}
+.eui-dark-theme .mat-step-header:hover[aria-disabled=true] {
+  cursor: default !important;
+}
+@media (hover: none) {
+  .eui-dark-theme .mat-step-header:hover {
+    background: none !important;
+  }
+}
+.eui-dark-theme .mat-step-header .mat-step-label,
+.eui-dark-theme .mat-step-header .mat-step-optional {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.eui-dark-theme .mat-step-header .mat-step-icon {
+  background-color: rgba(255, 255, 255, 0.7) !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-step-header .mat-step-icon-selected,
+.eui-dark-theme .mat-step-header .mat-step-icon-state-done,
+.eui-dark-theme .mat-step-header .mat-step-icon-state-edit {
+  background-color: #ff5d65 !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-step-header.mat-accent .mat-step-icon {
+  color: white !important;
+}
+.eui-dark-theme .mat-step-header.mat-accent .mat-step-icon-selected,
+.eui-dark-theme .mat-step-header.mat-accent .mat-step-icon-state-done,
+.eui-dark-theme .mat-step-header.mat-accent .mat-step-icon-state-edit {
+  background-color: #4545cf !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-step-header.mat-warn .mat-step-icon {
+  color: white !important;
+}
+.eui-dark-theme .mat-step-header.mat-warn .mat-step-icon-selected,
+.eui-dark-theme .mat-step-header.mat-warn .mat-step-icon-state-done,
+.eui-dark-theme .mat-step-header.mat-warn .mat-step-icon-state-edit {
+  background-color: #b00020 !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-step-header .mat-step-icon-state-error {
+  background-color: transparent !important;
+  color: #b00020 !important;
+}
+.eui-dark-theme .mat-step-header .mat-step-label.mat-step-label-active {
+  color: white !important;
+}
+.eui-dark-theme .mat-step-header .mat-step-label.mat-step-label-error {
+  color: #b00020 !important;
+}
+.eui-dark-theme .mat-stepper-horizontal, .eui-dark-theme .mat-stepper-vertical {
+  background-color: #424242 !important;
+}
+.eui-dark-theme .mat-stepper-vertical-line::before {
+  border-left-color: rgba(255, 255, 255, 0.12) !important;
+}
+.eui-dark-theme .mat-horizontal-stepper-header::before,
+.eui-dark-theme .mat-horizontal-stepper-header::after,
+.eui-dark-theme .mat-stepper-horizontal-line {
+  border-top-color: rgba(255, 255, 255, 0.12) !important;
+}
+.eui-dark-theme .mat-horizontal-stepper-header {
+  height: 72px !important;
+}
+.eui-dark-theme .mat-stepper-label-position-bottom .mat-horizontal-stepper-header,
+.eui-dark-theme .mat-vertical-stepper-header {
+  padding: 24px 24px !important;
+}
+.eui-dark-theme .mat-stepper-vertical-line::before {
+  top: -16px !important;
+  bottom: -16px !important;
+}
+.eui-dark-theme .mat-stepper-label-position-bottom .mat-horizontal-stepper-header::after, .eui-dark-theme .mat-stepper-label-position-bottom .mat-horizontal-stepper-header::before {
+  top: 36px !important;
+}
+.eui-dark-theme .mat-stepper-label-position-bottom .mat-stepper-horizontal-line {
+  top: 36px !important;
+}
+.eui-dark-theme .mat-sort-header-arrow {
+  color: #c6c6c6 !important;
+}
+.eui-dark-theme .mat-tab-nav-bar,
+.eui-dark-theme .mat-tab-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+.eui-dark-theme .mat-tab-group-inverted-header .mat-tab-nav-bar,
+.eui-dark-theme .mat-tab-group-inverted-header .mat-tab-header {
+  border-top: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-bottom: none !important;
+}
+.eui-dark-theme .mat-tab-label, .eui-dark-theme .mat-tab-link {
+  color: white !important;
+}
+.eui-dark-theme .mat-tab-label.mat-tab-disabled, .eui-dark-theme .mat-tab-link.mat-tab-disabled {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-tab-header-pagination-chevron {
+  border-color: white !important;
+}
+.eui-dark-theme .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron {
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+.eui-dark-theme .mat-tab-group[class*=mat-background-] > .mat-tab-header,
+.eui-dark-theme .mat-tab-nav-bar[class*=mat-background-] {
+  border-bottom: none !important;
+  border-top: none !important;
+}
+.eui-dark-theme .mat-tab-group.mat-primary .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled), .eui-dark-theme .mat-tab-group.mat-primary .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-group.mat-primary .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-group.mat-primary .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled), .eui-dark-theme .mat-tab-nav-bar.mat-primary .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled), .eui-dark-theme .mat-tab-nav-bar.mat-primary .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-nav-bar.mat-primary .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-nav-bar.mat-primary .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
+  background-color: rgba(247, 161, 167, 0.3) !important;
+}
+.eui-dark-theme .mat-tab-group.mat-primary .mat-ink-bar, .eui-dark-theme .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+  background-color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-tab-group.mat-primary.mat-background-primary > .mat-tab-header .mat-ink-bar, .eui-dark-theme .mat-tab-group.mat-primary.mat-background-primary > .mat-tab-link-container .mat-ink-bar, .eui-dark-theme .mat-tab-nav-bar.mat-primary.mat-background-primary > .mat-tab-header .mat-ink-bar, .eui-dark-theme .mat-tab-nav-bar.mat-primary.mat-background-primary > .mat-tab-link-container .mat-ink-bar {
+  background-color: white !important;
+}
+.eui-dark-theme .mat-tab-group.mat-accent .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled), .eui-dark-theme .mat-tab-group.mat-accent .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-group.mat-accent .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-group.mat-accent .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled), .eui-dark-theme .mat-tab-nav-bar.mat-accent .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled), .eui-dark-theme .mat-tab-nav-bar.mat-accent .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-nav-bar.mat-accent .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-nav-bar.mat-accent .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
+  background-color: rgba(199, 200, 241, 0.3) !important;
+}
+.eui-dark-theme .mat-tab-group.mat-accent .mat-ink-bar, .eui-dark-theme .mat-tab-nav-bar.mat-accent .mat-ink-bar {
+  background-color: #4545cf !important;
+}
+.eui-dark-theme .mat-tab-group.mat-accent.mat-background-accent > .mat-tab-header .mat-ink-bar, .eui-dark-theme .mat-tab-group.mat-accent.mat-background-accent > .mat-tab-link-container .mat-ink-bar, .eui-dark-theme .mat-tab-nav-bar.mat-accent.mat-background-accent > .mat-tab-header .mat-ink-bar, .eui-dark-theme .mat-tab-nav-bar.mat-accent.mat-background-accent > .mat-tab-link-container .mat-ink-bar {
+  background-color: white !important;
+}
+.eui-dark-theme .mat-tab-group.mat-warn .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled), .eui-dark-theme .mat-tab-group.mat-warn .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-group.mat-warn .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-group.mat-warn .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled), .eui-dark-theme .mat-tab-nav-bar.mat-warn .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled), .eui-dark-theme .mat-tab-nav-bar.mat-warn .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-nav-bar.mat-warn .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-nav-bar.mat-warn .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
+  background-color: rgba(251, 202, 210, 0.3) !important;
+}
+.eui-dark-theme .mat-tab-group.mat-warn .mat-ink-bar, .eui-dark-theme .mat-tab-nav-bar.mat-warn .mat-ink-bar {
+  background-color: #b00020 !important;
+}
+.eui-dark-theme .mat-tab-group.mat-warn.mat-background-warn > .mat-tab-header .mat-ink-bar, .eui-dark-theme .mat-tab-group.mat-warn.mat-background-warn > .mat-tab-link-container .mat-ink-bar, .eui-dark-theme .mat-tab-nav-bar.mat-warn.mat-background-warn > .mat-tab-header .mat-ink-bar, .eui-dark-theme .mat-tab-nav-bar.mat-warn.mat-background-warn > .mat-tab-link-container .mat-ink-bar {
+  background-color: white !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-primary .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled), .eui-dark-theme .mat-tab-group.mat-background-primary .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-group.mat-background-primary .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-group.mat-background-primary .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled), .eui-dark-theme .mat-tab-nav-bar.mat-background-primary .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled), .eui-dark-theme .mat-tab-nav-bar.mat-background-primary .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-nav-bar.mat-background-primary .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-nav-bar.mat-background-primary .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
+  background-color: rgba(247, 161, 167, 0.3) !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-primary > .mat-tab-header, .eui-dark-theme .mat-tab-group.mat-background-primary > .mat-tab-link-container, .eui-dark-theme .mat-tab-group.mat-background-primary > .mat-tab-header-pagination, .eui-dark-theme .mat-tab-nav-bar.mat-background-primary > .mat-tab-header, .eui-dark-theme .mat-tab-nav-bar.mat-background-primary > .mat-tab-link-container, .eui-dark-theme .mat-tab-nav-bar.mat-background-primary > .mat-tab-header-pagination {
+  background-color: #ff5d65 !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-primary > .mat-tab-header .mat-tab-label, .eui-dark-theme .mat-tab-group.mat-background-primary > .mat-tab-link-container .mat-tab-link, .eui-dark-theme .mat-tab-nav-bar.mat-background-primary > .mat-tab-header .mat-tab-label, .eui-dark-theme .mat-tab-nav-bar.mat-background-primary > .mat-tab-link-container .mat-tab-link {
+  color: white !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-primary > .mat-tab-header .mat-tab-label.mat-tab-disabled, .eui-dark-theme .mat-tab-group.mat-background-primary > .mat-tab-link-container .mat-tab-link.mat-tab-disabled, .eui-dark-theme .mat-tab-nav-bar.mat-background-primary > .mat-tab-header .mat-tab-label.mat-tab-disabled, .eui-dark-theme .mat-tab-nav-bar.mat-background-primary > .mat-tab-link-container .mat-tab-link.mat-tab-disabled {
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-primary > .mat-tab-header .mat-tab-header-pagination-chevron,
+.eui-dark-theme .mat-tab-group.mat-background-primary > .mat-tab-header-pagination .mat-tab-header-pagination-chevron,
+.eui-dark-theme .mat-tab-group.mat-background-primary > .mat-tab-link-container .mat-focus-indicator::before,
+.eui-dark-theme .mat-tab-group.mat-background-primary > .mat-tab-header .mat-focus-indicator::before, .eui-dark-theme .mat-tab-nav-bar.mat-background-primary > .mat-tab-header .mat-tab-header-pagination-chevron,
+.eui-dark-theme .mat-tab-nav-bar.mat-background-primary > .mat-tab-header-pagination .mat-tab-header-pagination-chevron,
+.eui-dark-theme .mat-tab-nav-bar.mat-background-primary > .mat-tab-link-container .mat-focus-indicator::before,
+.eui-dark-theme .mat-tab-nav-bar.mat-background-primary > .mat-tab-header .mat-focus-indicator::before {
+  border-color: white !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-primary > .mat-tab-header .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,
+.eui-dark-theme .mat-tab-group.mat-background-primary > .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron, .eui-dark-theme .mat-tab-nav-bar.mat-background-primary > .mat-tab-header .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,
+.eui-dark-theme .mat-tab-nav-bar.mat-background-primary > .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron {
+  border-color: white !important;
+  opacity: 0.4 !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-primary > .mat-tab-header .mat-ripple-element,
+.eui-dark-theme .mat-tab-group.mat-background-primary > .mat-tab-link-container .mat-ripple-element,
+.eui-dark-theme .mat-tab-group.mat-background-primary > .mat-tab-header-pagination .mat-ripple-element, .eui-dark-theme .mat-tab-nav-bar.mat-background-primary > .mat-tab-header .mat-ripple-element,
+.eui-dark-theme .mat-tab-nav-bar.mat-background-primary > .mat-tab-link-container .mat-ripple-element,
+.eui-dark-theme .mat-tab-nav-bar.mat-background-primary > .mat-tab-header-pagination .mat-ripple-element {
+  background-color: white !important;
+  opacity: 0.12 !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-accent .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled), .eui-dark-theme .mat-tab-group.mat-background-accent .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-group.mat-background-accent .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-group.mat-background-accent .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled), .eui-dark-theme .mat-tab-nav-bar.mat-background-accent .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled), .eui-dark-theme .mat-tab-nav-bar.mat-background-accent .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-nav-bar.mat-background-accent .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-nav-bar.mat-background-accent .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
+  background-color: rgba(199, 200, 241, 0.3) !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-accent > .mat-tab-header, .eui-dark-theme .mat-tab-group.mat-background-accent > .mat-tab-link-container, .eui-dark-theme .mat-tab-group.mat-background-accent > .mat-tab-header-pagination, .eui-dark-theme .mat-tab-nav-bar.mat-background-accent > .mat-tab-header, .eui-dark-theme .mat-tab-nav-bar.mat-background-accent > .mat-tab-link-container, .eui-dark-theme .mat-tab-nav-bar.mat-background-accent > .mat-tab-header-pagination {
+  background-color: #4545cf !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-accent > .mat-tab-header .mat-tab-label, .eui-dark-theme .mat-tab-group.mat-background-accent > .mat-tab-link-container .mat-tab-link, .eui-dark-theme .mat-tab-nav-bar.mat-background-accent > .mat-tab-header .mat-tab-label, .eui-dark-theme .mat-tab-nav-bar.mat-background-accent > .mat-tab-link-container .mat-tab-link {
+  color: white !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-accent > .mat-tab-header .mat-tab-label.mat-tab-disabled, .eui-dark-theme .mat-tab-group.mat-background-accent > .mat-tab-link-container .mat-tab-link.mat-tab-disabled, .eui-dark-theme .mat-tab-nav-bar.mat-background-accent > .mat-tab-header .mat-tab-label.mat-tab-disabled, .eui-dark-theme .mat-tab-nav-bar.mat-background-accent > .mat-tab-link-container .mat-tab-link.mat-tab-disabled {
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-accent > .mat-tab-header .mat-tab-header-pagination-chevron,
+.eui-dark-theme .mat-tab-group.mat-background-accent > .mat-tab-header-pagination .mat-tab-header-pagination-chevron,
+.eui-dark-theme .mat-tab-group.mat-background-accent > .mat-tab-link-container .mat-focus-indicator::before,
+.eui-dark-theme .mat-tab-group.mat-background-accent > .mat-tab-header .mat-focus-indicator::before, .eui-dark-theme .mat-tab-nav-bar.mat-background-accent > .mat-tab-header .mat-tab-header-pagination-chevron,
+.eui-dark-theme .mat-tab-nav-bar.mat-background-accent > .mat-tab-header-pagination .mat-tab-header-pagination-chevron,
+.eui-dark-theme .mat-tab-nav-bar.mat-background-accent > .mat-tab-link-container .mat-focus-indicator::before,
+.eui-dark-theme .mat-tab-nav-bar.mat-background-accent > .mat-tab-header .mat-focus-indicator::before {
+  border-color: white !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-accent > .mat-tab-header .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,
+.eui-dark-theme .mat-tab-group.mat-background-accent > .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron, .eui-dark-theme .mat-tab-nav-bar.mat-background-accent > .mat-tab-header .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,
+.eui-dark-theme .mat-tab-nav-bar.mat-background-accent > .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron {
+  border-color: white !important;
+  opacity: 0.4 !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-accent > .mat-tab-header .mat-ripple-element,
+.eui-dark-theme .mat-tab-group.mat-background-accent > .mat-tab-link-container .mat-ripple-element,
+.eui-dark-theme .mat-tab-group.mat-background-accent > .mat-tab-header-pagination .mat-ripple-element, .eui-dark-theme .mat-tab-nav-bar.mat-background-accent > .mat-tab-header .mat-ripple-element,
+.eui-dark-theme .mat-tab-nav-bar.mat-background-accent > .mat-tab-link-container .mat-ripple-element,
+.eui-dark-theme .mat-tab-nav-bar.mat-background-accent > .mat-tab-header-pagination .mat-ripple-element {
+  background-color: white !important;
+  opacity: 0.12 !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-warn .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled), .eui-dark-theme .mat-tab-group.mat-background-warn .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-group.mat-background-warn .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-group.mat-background-warn .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled), .eui-dark-theme .mat-tab-nav-bar.mat-background-warn .mat-tab-label.cdk-keyboard-focused:not(.mat-tab-disabled), .eui-dark-theme .mat-tab-nav-bar.mat-background-warn .mat-tab-label.cdk-program-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-nav-bar.mat-background-warn .mat-tab-link.cdk-keyboard-focused:not(.mat-tab-disabled),
+.eui-dark-theme .mat-tab-nav-bar.mat-background-warn .mat-tab-link.cdk-program-focused:not(.mat-tab-disabled) {
+  background-color: rgba(251, 202, 210, 0.3) !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-warn > .mat-tab-header, .eui-dark-theme .mat-tab-group.mat-background-warn > .mat-tab-link-container, .eui-dark-theme .mat-tab-group.mat-background-warn > .mat-tab-header-pagination, .eui-dark-theme .mat-tab-nav-bar.mat-background-warn > .mat-tab-header, .eui-dark-theme .mat-tab-nav-bar.mat-background-warn > .mat-tab-link-container, .eui-dark-theme .mat-tab-nav-bar.mat-background-warn > .mat-tab-header-pagination {
+  background-color: #b00020 !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-warn > .mat-tab-header .mat-tab-label, .eui-dark-theme .mat-tab-group.mat-background-warn > .mat-tab-link-container .mat-tab-link, .eui-dark-theme .mat-tab-nav-bar.mat-background-warn > .mat-tab-header .mat-tab-label, .eui-dark-theme .mat-tab-nav-bar.mat-background-warn > .mat-tab-link-container .mat-tab-link {
+  color: white !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-warn > .mat-tab-header .mat-tab-label.mat-tab-disabled, .eui-dark-theme .mat-tab-group.mat-background-warn > .mat-tab-link-container .mat-tab-link.mat-tab-disabled, .eui-dark-theme .mat-tab-nav-bar.mat-background-warn > .mat-tab-header .mat-tab-label.mat-tab-disabled, .eui-dark-theme .mat-tab-nav-bar.mat-background-warn > .mat-tab-link-container .mat-tab-link.mat-tab-disabled {
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-warn > .mat-tab-header .mat-tab-header-pagination-chevron,
+.eui-dark-theme .mat-tab-group.mat-background-warn > .mat-tab-header-pagination .mat-tab-header-pagination-chevron,
+.eui-dark-theme .mat-tab-group.mat-background-warn > .mat-tab-link-container .mat-focus-indicator::before,
+.eui-dark-theme .mat-tab-group.mat-background-warn > .mat-tab-header .mat-focus-indicator::before, .eui-dark-theme .mat-tab-nav-bar.mat-background-warn > .mat-tab-header .mat-tab-header-pagination-chevron,
+.eui-dark-theme .mat-tab-nav-bar.mat-background-warn > .mat-tab-header-pagination .mat-tab-header-pagination-chevron,
+.eui-dark-theme .mat-tab-nav-bar.mat-background-warn > .mat-tab-link-container .mat-focus-indicator::before,
+.eui-dark-theme .mat-tab-nav-bar.mat-background-warn > .mat-tab-header .mat-focus-indicator::before {
+  border-color: white !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-warn > .mat-tab-header .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,
+.eui-dark-theme .mat-tab-group.mat-background-warn > .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron, .eui-dark-theme .mat-tab-nav-bar.mat-background-warn > .mat-tab-header .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron,
+.eui-dark-theme .mat-tab-nav-bar.mat-background-warn > .mat-tab-header-pagination-disabled .mat-tab-header-pagination-chevron {
+  border-color: white !important;
+  opacity: 0.4 !important;
+}
+.eui-dark-theme .mat-tab-group.mat-background-warn > .mat-tab-header .mat-ripple-element,
+.eui-dark-theme .mat-tab-group.mat-background-warn > .mat-tab-link-container .mat-ripple-element,
+.eui-dark-theme .mat-tab-group.mat-background-warn > .mat-tab-header-pagination .mat-ripple-element, .eui-dark-theme .mat-tab-nav-bar.mat-background-warn > .mat-tab-header .mat-ripple-element,
+.eui-dark-theme .mat-tab-nav-bar.mat-background-warn > .mat-tab-link-container .mat-ripple-element,
+.eui-dark-theme .mat-tab-nav-bar.mat-background-warn > .mat-tab-header-pagination .mat-ripple-element {
+  background-color: white !important;
+  opacity: 0.12 !important;
+}
+.eui-dark-theme .mat-toolbar {
+  background: #212121 !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-toolbar.mat-primary {
+  background: #ff5d65 !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-toolbar.mat-accent {
+  background: #4545cf !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-toolbar.mat-warn {
+  background: #b00020 !important;
+  color: white !important;
+}
+.eui-dark-theme .mat-toolbar .mat-form-field-underline,
+.eui-dark-theme .mat-toolbar .mat-form-field-ripple,
+.eui-dark-theme .mat-toolbar .mat-focused .mat-form-field-ripple {
+  background-color: currentColor !important;
+}
+.eui-dark-theme .mat-toolbar .mat-form-field-label,
+.eui-dark-theme .mat-toolbar .mat-focused .mat-form-field-label,
+.eui-dark-theme .mat-toolbar .mat-select-value,
+.eui-dark-theme .mat-toolbar .mat-select-arrow,
+.eui-dark-theme .mat-toolbar .mat-form-field.mat-focused .mat-select-arrow {
+  color: inherit !important;
+}
+.eui-dark-theme .mat-toolbar .mat-input-element {
+  caret-color: currentColor !important;
+}
+.eui-dark-theme .mat-toolbar-multiple-rows {
+  min-height: 64px !important;
+}
+.eui-dark-theme .mat-toolbar-row, .eui-dark-theme .mat-toolbar-single-row {
+  height: 64px !important;
+}
+@media (max-width: 599px) {
+  .eui-dark-theme .mat-toolbar-multiple-rows {
+    min-height: 56px !important;
+  }
+  .eui-dark-theme .mat-toolbar-row, .eui-dark-theme .mat-toolbar-single-row {
+    height: 56px !important;
+  }
+}
+.eui-dark-theme .mat-tooltip {
+  background: rgba(97, 97, 97, 0.9) !important;
+}
+.eui-dark-theme .mat-tree {
+  background: #424242 !important;
+}
+.eui-dark-theme .mat-tree-node,
+.eui-dark-theme .mat-nested-tree-node {
+  color: white !important;
+}
+.eui-dark-theme .mat-tree-node {
+  min-height: 48px !important;
+}
+.eui-dark-theme .mat-snack-bar-container {
+  color: rgba(0, 0, 0, 0.87) !important;
+  background: #fafafa !important;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12) !important;
+}
+.eui-dark-theme .mat-simple-snackbar-action {
+  color: inherit !important;
+}
+
+/*# sourceMappingURL=hep-dark-theme.css.map */
