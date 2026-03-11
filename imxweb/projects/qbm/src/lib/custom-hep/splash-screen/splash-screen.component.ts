@@ -4,7 +4,7 @@ import { animate, style, transition, trigger } from '@angular/animations';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'axpo-splash-screen',
+  selector: 'hep-splash-screen',
   templateUrl: './splash-screen.component.html',
   styleUrls: ['./splash-screen.component.scss'],
   animations: [

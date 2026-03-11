@@ -1,10 +1,10 @@
-<div *ngIf="this.splashService.getActive()" [@slideInOut] class="axpo-custom-splash-screen-overlay">
+<div *ngIf="this.splashService.getActive()" [@slideInOut] class="hep-custom-splash-screen-overlay">
   <div id="loading-bar"></div>
-  <object class="axpo-custom-splash-screen-logo" type="image/svg+xml" data="assets/images/axpo_logo_gradient.svg"></object>
-  <h1 class="axpo-custom-splash-screen-applicationName">
+  <object class="hep-custom-splash-screen-logo" type="image/svg+xml" data="assets/logo_HEPVS.png"></object>
+  <h1 class="hep-custom-splash-screen-applicationName">
     {{ this.splashService.getApplicationName() }}
   </h1>
-  <p *ngIf="this.splashService.getMessage()" class="axpo-custom-splash-screen-message">
+  <p *ngIf="this.splashService.getMessage()" class="hep-custom-splash-screen-message">
     {{ this.splashService.getMessage() }}
   </p>
 </div>
