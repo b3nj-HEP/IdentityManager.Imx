@@ -1,0 +1,57 @@
+@import 'variables.scss';
+
+.axpo-custom-splash-screen-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background-color: $axpo-light-background;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  // This really should appear on top
+  z-index: 999;
+}
+
+.axpo-custom-splash-screen-logo {
+  width: 120px;
+}
+
+.axpo-custom-splash-screen-applicationName {
+  font-size: 22px;
+  font-family: Almarena, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #3c3c3b;
+  margin-top: 6px;
+}
+
+.axpo-custom-splash-screen-message {
+  margin-block-start: 0;
+  margin-top: 12px;
+  color: $axpo-light-text-secondary;
+}
+
+.eui-dark-theme,
+.eui-contrast-theme,
+.axpo-dark-theme {
+  :host {
+    .axpo-custom-splash-screen-overlay {
+      background: $axpo-dark-background;
+    }
+
+    .axpo-custom-splash-screen-applicationName {
+      color: $axpo-dark-text-primary;
+    }
+
+    .axpo-custom-splash-screen-message {
+      color: $axpo-dark-text-secondary;
+    }
+  }
+}
