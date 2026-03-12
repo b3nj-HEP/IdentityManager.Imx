@@ -68,7 +68,7 @@ export class LoginComponent implements OnInit, OnDestroy, AfterViewChecked {
   public title: string;
   public readonly product: { name: string; copyright: string } = {
     name: Globals.QIM_ProductNameFull,
-    copyright: Globals.QBM_Copyright,
+    copyright: "HEPVS All Rights Reserved",
   };
   public loginData: { [id: string]: string } = {};
   public selectedConfigProvider: AuthConfigProvider;
