@@ -121,7 +121,7 @@ export class AppService {
 
   private showSplash(): void {
     // open splash screen with fix values
-    this.splash.init({ applicationName: 'One Identity Manager Portal' });
+    this.splash.init({ applicationName: 'PHVS IAM Portal' });
   }
 
   private async updateSplash(title: string): Promise<void> {
