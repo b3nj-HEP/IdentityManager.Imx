@@ -33,7 +33,7 @@ import { EuiSplashScreenConfig, EuiSplashScreenOptions, EuiSplashScreenService }
 export class SplashService {
   private defaultOptions: EuiSplashScreenConfig = {
     applicationName: 'One Identity Manager',
-    icon: 'oi-horizontal',
+    icon: 'shared/assets/logo_HEPVS.png',
     showSpinner: true,
     message: 'Loading...',
   };
