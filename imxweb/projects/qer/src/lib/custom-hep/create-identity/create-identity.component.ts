@@ -1,5 +1,6 @@
 import { Component, OnDestroy } from '@angular/core';
 import { UntypedFormGroup } from '@angular/forms';
+import { EuiLoadingService } from '@elemental-ui/core';
 
 import { CheckMode, PortalCartitem } from '@imx-modules/imx-api-qer';
 import { BaseCdr, ColumnDependentReference, SnackBarService, imx_SessionService } from 'qbm';
@@ -43,6 +44,7 @@ export class CreateIdentityComponent implements OnDestroy {
     private readonly userModelService: UserModelService,
     private readonly session: imx_SessionService,
     private readonly snackbar: SnackBarService,
+    private readonly busyService: EuiLoadingService,
   ) {}
 
   public async ngOnDestroy(): Promise<void> {
@@ -54,6 +56,7 @@ export class CreateIdentityComponent implements OnDestroy {
     this.selectedType = type;
 
     this.busy = true;
+    const overlayRef = this.busyService.show();
     try {
       const serviceItem = await this.serviceItemsService.getServiceItem(type.uidAccProduct, true);
       if (!serviceItem) {
@@ -91,6 +94,7 @@ export class CreateIdentityComponent implements OnDestroy {
       this.cdrs = this.extendedEntity.parameterCategoryColumns.map((item) => new BaseCdr(item.column));
     } finally {
       this.busy = false;
+      this.busyService.hide(overlayRef);
     }
   }
 
@@ -100,6 +104,7 @@ export class CreateIdentityComponent implements OnDestroy {
     }
 
     this.busy = true;
+    const overlayRef = this.busyService.show();
     try {
       if (this.extendedEntity) {
         await this.cartItemsService.save(this.extendedEntity);
@@ -119,6 +124,7 @@ export class CreateIdentityComponent implements OnDestroy {
       this.reset();
     } finally {
       this.busy = false;
+      this.busyService.hide(overlayRef);
     }
   }
 

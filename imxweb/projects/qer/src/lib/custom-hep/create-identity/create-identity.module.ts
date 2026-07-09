@@ -7,7 +7,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { RouterModule, Routes } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 
-import { BusyIndicatorModule, CdrModule, RouteGuardService } from 'qbm';
+import { CdrModule, RouteGuardService } from 'qbm';
 import { RequestsFeatureGuardService } from '../../requests-feature-guard.service';
 import { CreateIdentityComponent } from './create-identity.component';
 
@@ -33,7 +33,6 @@ const routes: Routes = [
     MatSelectModule,
     RouterModule.forChild(routes),
     TranslateModule,
-    BusyIndicatorModule,
     CdrModule,
   ],
   exports: [CreateIdentityComponent],

@@ -13,10 +13,6 @@
     </mat-select>
   </mat-form-field>
 
-  <div class="imx-create-identity-busy" *ngIf="busy">
-    <imx-busy-indicator></imx-busy-indicator>
-  </div>
-
   <ng-container *ngIf="!busy && selectedType">
     <form [formGroup]="formGroup" class="imx-create-identity-parameters">
       <imx-cdr-editor
