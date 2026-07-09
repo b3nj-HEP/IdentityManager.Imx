@@ -1,0 +1,44 @@
+<div class="imx-create-identity">
+  <h2 class="mat-headline-5">{{ '#LDS#Heading Create Identity' | translate }}</h2>
+
+  <mat-form-field appearance="fill" class="imx-create-identity-select">
+    <mat-label>{{ '#LDS#Identity type' | translate }}</mat-label>
+    <mat-select
+      [ngModel]="selectedType"
+      (ngModelChange)="onTypeChange($event)"
+      [disabled]="busy"
+      data-imx-identifier="create-identity-type-select"
+    >
+      <mat-option *ngFor="let type of identityTypes" [value]="type">{{ type.label | translate }}</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <div class="imx-create-identity-busy" *ngIf="busy">
+    <imx-busy-indicator></imx-busy-indicator>
+  </div>
+
+  <ng-container *ngIf="!busy && selectedType">
+    <form [formGroup]="formGroup" class="imx-create-identity-parameters">
+      <imx-cdr-editor
+        *ngFor="let cdr of cdrs; let i = index"
+        [cdr]="cdr"
+        (pendingChanged)="formGroupIsPending = $event"
+        (controlCreated)="formGroup.addControl('param' + i, $event)"
+        [attr.data-imx-identifier]="'create-identity-param-' + i"
+      >
+      </imx-cdr-editor>
+    </form>
+
+    <div class="imx-create-identity-actions">
+      <button
+        mat-flat-button
+        color="primary"
+        [disabled]="!formGroup.valid || formGroupIsPending"
+        (click)="onSubmit()"
+        data-imx-identifier="create-identity-button-submit"
+      >
+        {{ '#LDS#Submit request' | translate }}
+      </button>
+    </div>
+  </ng-container>
+</div>

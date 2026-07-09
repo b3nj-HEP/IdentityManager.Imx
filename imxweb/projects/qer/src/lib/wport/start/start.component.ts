@@ -30,6 +30,7 @@ import { Router } from '@angular/router';
 import { SystemInfo } from '@imx-modules/imx-api-qbm';
 import { ProjectConfig, QerProjectConfig, UserConfig } from '@imx-modules/imx-api-qer';
 import { imx_SessionService, SplashService, SystemInfoService } from 'qbm';
+import { CREATE_IDENTITY_ROUTE } from '../../custom-hep/create-identity/create-identity.module';
 import { ProjectConfigurationService } from '../../project-configuration/project-configuration.service';
 import { PendingItemsType } from '../../user/pending-items-type.interface';
 import { UserModelService } from '../../user/user-model.service';
@@ -102,6 +103,10 @@ export class StartComponent implements OnInit {
 
   public GoToProductSelection(): void {
     this.router.navigate(['newrequest']);
+  }
+
+  public GoToCreateIdentity(): void {
+    this.router.navigate([CREATE_IDENTITY_ROUTE]);
   }
 
   public GoToItshopApprovals(): void {

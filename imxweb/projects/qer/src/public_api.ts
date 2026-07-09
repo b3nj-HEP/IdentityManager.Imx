@@ -41,6 +41,8 @@ export { BusinessOwnerAddOnTileComponent } from './lib/businessowner-addon-tile/
 export { BusinessownerAddonTileModule } from './lib/businessowner-addon-tile/businessowner-addon-tile.module';
 export { BusinessOwnerOverviewTileComponent } from './lib/businessowner-overview-tile/businessowner-overview-tile.component';
 export { BusinessownerOverviewTileModule } from './lib/businessowner-overview-tile/businessowner-overview-tile.module';
+export { CreateIdentityComponent } from './lib/custom-hep/create-identity/create-identity.component';
+export { CREATE_IDENTITY_ROUTE, CreateIdentityModule } from './lib/custom-hep/create-identity/create-identity.module';
 export { DataExplorerRegistryService } from './lib/data-explorer-view/data-explorer-registry.service';
 export { DataExplorerViewModule } from './lib/data-explorer-view/data-explorer-view.module';
 export { DelegationComponent } from './lib/delegation/delegation.component';

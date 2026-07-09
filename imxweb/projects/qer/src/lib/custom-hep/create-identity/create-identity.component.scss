@@ -1,0 +1,24 @@
+.imx-create-identity {
+  padding: 24px;
+  max-width: 800px;
+
+  .imx-create-identity-select {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+  }
+
+  .imx-create-identity-busy {
+    margin-top: 32px;
+    transform: scale(0.5);
+    transform-origin: top;
+  }
+
+  .imx-create-identity-parameters {
+    margin-top: 16px;
+  }
+
+  .imx-create-identity-actions {
+    margin-top: 16px;
+  }
+}

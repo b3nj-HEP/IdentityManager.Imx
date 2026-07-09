@@ -164,6 +164,27 @@
         </button>
       </ng-template>
     </imx-icon-tile>
+    <imx-icon-tile
+      data-imx-identifier="start-tile-create-identity"
+      [caption]="'#LDS#Heading Create Identity' | translate"
+      [subtitle]="'#LDS#Create a new Entra ID Guest or Affiliate identity.' | translate"
+      [image]="'add'"
+      [identifier]="'create-identity'"
+      *ngIf="viewReady && ShowNewRequestLink()"
+    >
+      <ng-template #ActionTemplate>
+        <button
+          mat-button
+          class="imx-button-uppercase"
+          color="primary"
+          [attr.data-imx-identifier]="'imx-start-button-create-identity'"
+          (click)="GoToCreateIdentity()"
+        >
+          <span>{{ '#LDS#Create identity' | translate }}</span>
+          <eui-icon class="imx-margin-left-15" icon="forward"></eui-icon>
+        </button>
+      </ng-template>
+    </imx-icon-tile>
     <imx-ext id="Dashboard-MediumTiles"></imx-ext>
   </div>
   <div class="imx-flexible-tile-row">
