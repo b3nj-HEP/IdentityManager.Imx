@@ -1,4 +1,4 @@
-import { Component, OnDestroy } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { UntypedFormGroup } from '@angular/forms';
 import { EuiLoadingService } from '@elemental-ui/core';
 
@@ -6,6 +6,7 @@ import { CheckMode, PortalCartitem } from '@imx-modules/imx-api-qer';
 import { BaseCdr, ColumnDependentReference, SnackBarService, imx_SessionService } from 'qbm';
 import { ShelfService } from '../../itshop/shelf.service';
 import { ExtendedEntityWrapper } from '../../parameter-data/extended-entity-wrapper.interface';
+import { QerApiService } from '../../qer-api-client.service';
 import { ServiceItemsService } from '../../service-items/service-items.service';
 import { CartItemsService } from '../../shopping-cart/cart-items.service';
 import { UserModelService } from '../../user/user-model.service';
@@ -15,18 +16,17 @@ interface IdentityTypeOption {
   uidAccProduct: string;
 }
 
-const IDENTITY_TYPES: IdentityTypeOption[] = [
-  { label: '#LDS#Entra ID Guest', uidAccProduct: '064b437c-edd5-463e-9679-c1b77096e490' },
-  { label: '#LDS#Affiliate', uidAccProduct: 'a2eb6df0-9149-4c63-a43e-155e109683b6' },
-];
+const IDENTITY_TYPE_TABLE = 'CCCIdentityType';
+const IDENTITY_TYPE_PRODUCT_COLUMN = 'CCC_UID_AccProduct';
+const IDENTITY_TYPE_DISPLAY_COLUMN = 'CCC_Display';
 
 @Component({
   selector: 'imx-create-identity',
   templateUrl: './create-identity.component.html',
   styleUrls: ['./create-identity.component.scss'],
 })
-export class CreateIdentityComponent implements OnDestroy {
-  public readonly identityTypes = IDENTITY_TYPES;
+export class CreateIdentityComponent implements OnInit, OnDestroy {
+  public identityTypes: IdentityTypeOption[] = [];
   public selectedType: IdentityTypeOption | undefined;
   public cdrs: ColumnDependentReference[] = [];
   public formGroup = new UntypedFormGroup({});
@@ -45,7 +45,25 @@ export class CreateIdentityComponent implements OnDestroy {
     private readonly session: imx_SessionService,
     private readonly snackbar: SnackBarService,
     private readonly busyService: EuiLoadingService,
+    private readonly qerApiService: QerApiService,
   ) {}
+
+  public async ngOnInit(): Promise<void> {
+    const overlayRef = this.busyService.show();
+    try {
+      const candidates = await this.qerApiService.client.portal_sqlwizard_candidates_get(IDENTITY_TYPE_TABLE);
+      this.identityTypes = (candidates.Entities || [])
+        .filter((entity) => !!entity.Columns?.[IDENTITY_TYPE_PRODUCT_COLUMN]?.Value)
+        .map((entity) => ({
+          label: entity.Columns?.[IDENTITY_TYPE_DISPLAY_COLUMN]?.Value ?? entity.Columns?.[IDENTITY_TYPE_PRODUCT_COLUMN]?.Value,
+          uidAccProduct: entity.Columns?.[IDENTITY_TYPE_PRODUCT_COLUMN]?.Value,
+        }));
+    } catch {
+      this.snackbar.open({ key: '#LDS#The identity types could not be loaded.' }, '#LDS#Close');
+    } finally {
+      this.busyService.hide(overlayRef);
+    }
+  }
 
   public async ngOnDestroy(): Promise<void> {
     await this.discardPendingItem();
